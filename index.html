@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AI Model Hub</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f5f7fb; padding: 20px; }
+    .container { max-width: 1400px; margin: 0 auto; }
+    h1 { font-size: 1.8rem; margin-bottom: 20px; }
+    .filters { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+    .filter-btn { padding: 8px 20px; border: none; border-radius: 40px; background: #e9ecef; cursor: pointer; }
+    .filter-btn.active { background: #3b82f6; color: #fff; }
+    .search-box { margin-bottom: 24px; }
+    .search-box input { width: 100%; max-width: 400px; padding: 10px 16px; border-radius: 40px; border: 1px solid #ccc; font-size: 1rem; }
+    .model-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+    .card { background: #fff; border-radius: 16px; padding: 18px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .card-title { font-size: 1.25rem; font-weight: 600; margin-bottom: 8px; word-break: break-word; }
+    .tag { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; margin-bottom: 12px; }
+    .tag-text { background: #e0f2fe; color: #0369a1; }
+    .tag-image { background: #dcfce7; color: #15803d; }
+    .tag-video { background: #fee2e2; color: #b91c1c; }
+    .tag-audio { background: #fef3c7; color: #92400e; }
+    .card-desc { color: #4b5563; font-size: 0.85rem; margin-bottom: 12px; line-height: 1.5; }
+    .mates { font-size: 0.75rem; color: #6b7280; margin: 10px 0; border-top: 1px solid #eee; padding-top: 8px; }
+    .mates span { font-weight: bold; }
+    .mate-link { display: inline-block; margin-right: 10px; margin-top: 6px; text-decoration: none; color: #3b82f6; }
+    .card-buttons { display: flex; gap: 12px; margin-top: 8px; }
+    .card-btn { flex: 1; padding: 8px; border: none; border-radius: 8px; background: #f3f4f6; cursor: pointer; }
+    .card-btn.download { background: #3b82f6; color: #fff; }
+    .card-btn.disabled, .card-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .empty-tip, .loading-tip { text-align: center; padding: 60px; color: #6b7280; grid-column: 1 / -1; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>AI Model Hub</h1>
+  <div class="filters">
+    <button class="filter-btn active" data-type="all">全部</button>
+    <button class="filter-btn" data-type="text">文本</button>
+    <button class="filter-btn" data-type="image">图像</button>
+    <button class="filter-btn" data-type="video">视频</button>
+    <button class="filter-btn" data-type="audio">音频</button>
+  </div>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="搜索模型名称或描述...">
+  </div>
+  <div id="modelContainer" class="model-grid"></div>
+</div>
+<script src="./renderer.js"></script>
+</body>
+</html>

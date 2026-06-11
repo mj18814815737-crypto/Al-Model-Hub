@@ -1,0 +1,61 @@
+﻿name: Build Windows Executable
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - package.json
+      - yarn.lock
+      - main.js
+      - preload.js
+      - index.html
+      - renderer.js
+      - data/**
+      - scripts/**
+      - app-icon.ico
+      - .github/workflows/build.yml
+  workflow_dispatch:
+
+concurrency:
+  group: github-workflow-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build executable
+        run: yarn build
+
+      - name: Upload executable artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Windows-Executable
+          path: dist/*.exe
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.exe
+          tag_name: v1.0.0-build-${{ github.sha }}
+          name: AI Model Hub v1.0.0
+          body: Automated Windows client build
+          draft: false
+          prerelease: false

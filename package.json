@@ -1,0 +1,23 @@
+{
+  "name": "ai-model-hub",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64"
+  },
+  "dependencies": {
+    "electron": "^27.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.6.4"
+  },
+  "build": {
+    "appId": "com.ai.modelhub",
+    "productName": "AI Model Hub",
+    "directories": { "output": "dist" },
+    "files": ["**/*", "!node_modules/.cache", "!dist"],
+    "win": { "target": ["nsis", "portable"] },
+    "nsis": { "oneClick": false, "perMachine": true, "allowToChangeInstallationDirectory": true }
+  }
+}

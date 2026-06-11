@@ -24,6 +24,9 @@ concurrency:
 permissions:
   contents: write
 
+env:
+  ELECTRON_MIRROR: https://npmmirror.com/mirrors/electron/
+
 jobs:
   build:
     runs-on: windows-latest

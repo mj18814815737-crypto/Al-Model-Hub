@@ -1,8 +1,6 @@
 {
   "name": "ai-model-hub",
   "version": "1.0.0",
-  "description": "Desktop app for browsing AI text, image, video, and audio models.",
-  "author": "AI Model Hub",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -15,27 +13,9 @@
   "build": {
     "appId": "com.ai.modelhub",
     "productName": "AI Model Hub",
-    "directories": {
-      "output": "dist"
-    },
-    "files": [
-      "**/*",
-      "!node_modules/.cache",
-      "!dist"
-    ],
-    "win": {
-      "target": [
-        "nsis",
-        "portable"
-      ]
-    },
-    "portable": {
-      "artifactName": "AIModelHub.exe"
-    },
-    "nsis": {
-      "oneClick": false,
-      "perMachine": true,
-      "allowToChangeInstallationDirectory": true
-    }
+    "directories": { "output": "dist" },
+    "files": ["**/*", "!node_modules/.cache", "!dist"],
+    "win": { "target": ["nsis", "portable"] },
+    "nsis": { "oneClick": false, "perMachine": true, "allowToChangeInstallationDirectory": true }
   }
 }

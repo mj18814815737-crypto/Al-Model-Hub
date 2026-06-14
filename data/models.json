@@ -168,10 +168,10 @@
     ]
   },
   {
-    "name": "ideogram-ai/ideogram-4-fp8",
-    "category": "image",
-    "link": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
-    "description": "diffusers, safetensors, text-to-image, image-generation, diffusion, flow-matching, dit, ideogram, license:other, diffusers:Ideogram4Pipeline, region:us",
+    "name": "nex-agi/Nex-N2-Pro",
+    "category": "text",
+    "link": "https://huggingface.co/nex-agi/Nex-N2-Pro",
+    "description": "transformers, safetensors, qwen3_5_moe, image-text-to-text, text-generation, conversational, license:apache-2.0, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -192,29 +192,10 @@
     ]
   },
   {
-    "name": "nvidia/nemotron-3.5-asr-streaming-0.6b",
-    "category": "audio",
-    "link": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
-    "description": "nemo, speech-recognition, cache-aware ASR, automatic-speech-recognition, streaming-asr, multilingual, speech, audio, FastConformer, RNNT, Parakeet, ASR, pytorch, NeMo, en, es, de, fr, it, ar, ja, ko, pt, ru, hi, zh, vi, he, nl, cs, da, pl, no, sv, th, tr, bg, el, et, fi, hr, hu, lt, lv, ro, sk, uk, mt, sl, dataset:nvidia/Granary, dataset:multilingual_librispeech, dataset:fleurs, dataset:mozilla-foundation/common_voice_8_0, dataset:voxpopuli, dataset:europarl, arxiv:2312.17279, arxiv:2305.05084, license:other, model-index, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
-    "name": "nex-agi/Nex-N2-Pro",
-    "category": "text",
-    "link": "https://huggingface.co/nex-agi/Nex-N2-Pro",
-    "description": "transformers, safetensors, qwen3_5_moe, image-text-to-text, text-generation, conversational, license:apache-2.0, eval-results, endpoints_compatible, region:us",
+    "name": "ideogram-ai/ideogram-4-fp8",
+    "category": "image",
+    "link": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
+    "description": "diffusers, safetensors, text-to-image, image-generation, diffusion, flow-matching, dit, ideogram, license:other, diffusers:Ideogram4Pipeline, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -259,26 +240,21 @@
     ]
   },
   {
-    "name": "ideogram-ai/ideogram-4-nf4",
-    "category": "image",
-    "link": "https://huggingface.co/ideogram-ai/ideogram-4-nf4",
-    "description": "diffusers, safetensors, text-to-image, image-generation, diffusion, flow-matching, dit, ideogram, license:other, diffusers:Ideogram4Pipeline, region:us",
+    "name": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "category": "audio",
+    "link": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "description": "nemo, speech-recognition, cache-aware ASR, automatic-speech-recognition, streaming-asr, multilingual, speech, audio, FastConformer, RNNT, Parakeet, ASR, pytorch, NeMo, en, es, de, fr, it, ar, ja, ko, pt, ru, hi, zh, vi, he, nl, cs, da, pl, no, sv, th, tr, bg, el, et, fi, hr, hu, lt, lv, ro, sk, uk, mt, sl, dataset:nvidia/Granary, dataset:multilingual_librispeech, dataset:fleurs, dataset:mozilla-foundation/common_voice_8_0, dataset:voxpopuli, dataset:europarl, arxiv:2312.17279, arxiv:2305.05084, license:other, model-index, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
       },
       {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
       }
     ]
   },
@@ -303,6 +279,30 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "ideogram-ai/ideogram-4-nf4",
+    "category": "image",
+    "link": "https://huggingface.co/ideogram-ai/ideogram-4-nf4",
+    "description": "diffusers, safetensors, text-to-image, image-generation, diffusion, flow-matching, dit, ideogram, license:other, diffusers:Ideogram4Pipeline, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
@@ -355,58 +355,58 @@
     ]
   },
   {
+    "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+    "description": "gguf, gemma4, coding, code, reasoning, thinking, llama.cpp, local-llm, text-generation, base_model:google/gemma-4-12B-it, base_model:quantized:google/gemma-4-12B-it, license:gemma, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "silx-ai/Quasar-Preview",
+    "category": "text",
+    "link": "https://huggingface.co/silx-ai/Quasar-Preview",
+    "description": "transformers, safetensors, quasar_long, text-generation, silx-ai, quasar-preview, quasar, foundation-model, moe, 18b, 2b-active, long-context, bittensor, sn24, decentralized-training, distillation, hybrid-transformer, loop-transformer, safe-nope, drope, conversational, custom_code, en, ar, license:mit, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "LiquidAI/LFM2.5-8B-A1B",
     "category": "text",
     "link": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
     "description": "transformers, safetensors, lfm2_moe, text-generation, liquid, lfm2.5, edge, conversational, en, ar, zh, fr, de, ja, ko, es, pt, it, arxiv:2511.23404, base_model:LiquidAI/LFM2.5-8B-A1B-Base, base_model:finetune:LiquidAI/LFM2.5-8B-A1B-Base, license:other, eval-results, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "pat-jj/harness-1",
-    "category": "text",
-    "link": "https://huggingface.co/pat-jj/harness-1",
-    "description": "transformers, safetensors, gpt_oss, text-generation, search, retrieval, harness-1, conversational, arxiv:2606.02373, base_model:openai/gpt-oss-20b, base_model:finetune:openai/gpt-oss-20b, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-    "category": "text",
-    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-    "description": "transformers, safetensors, nemotron_h, text-generation, nvidia, pytorch, nemotron-3, latent-moe, mtp, conversational, en, fr, es, it, de, pt, ja, ko, hi, ar, zh, he, dataset:nvidia/nemotron-post-training-v3, dataset:nvidia/nemotron-pre-training-datasets, license:other, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -451,73 +451,6 @@
     ]
   },
   {
-    "name": "silx-ai/Quasar-Preview",
-    "category": "text",
-    "link": "https://huggingface.co/silx-ai/Quasar-Preview",
-    "description": "transformers, safetensors, quasar_long, text-generation, silx-ai, quasar-preview, quasar, foundation-model, moe, 18b, 2b-active, long-context, bittensor, sn24, decentralized-training, distillation, hybrid-transformer, loop-transformer, safe-nope, drope, conversational, custom_code, en, ar, license:mit, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "jdopensource/JoyAI-Echo",
-    "category": "video",
-    "link": "https://huggingface.co/jdopensource/JoyAI-Echo",
-    "description": "ltx-video, JoyAI-Echo, text-to-video, video-generation, audio-video-generation, long-video, multi-shot, dmd, license:other, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Whisper",
-        "link": "https://openai.com/research/whisper",
-        "description": "视频配音和字幕生成"
-      },
-      {
-        "name": "Flowframes",
-        "link": "https://nmkd.itch.io/flowframes",
-        "description": "视频插帧和流畅化"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "背景音乐生成"
-      }
-    ]
-  },
-  {
-    "name": "pyannote/speaker-diarization-3.1",
-    "category": "audio",
-    "link": "https://huggingface.co/pyannote/speaker-diarization-3.1",
-    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2111.14448, arxiv:2012.01477, license:mit, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
     "name": "black-forest-labs/FLUX.1-dev",
     "category": "image",
     "link": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
@@ -542,10 +475,29 @@
     ]
   },
   {
-    "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+    "name": "pyannote/speaker-diarization-3.1",
+    "category": "audio",
+    "link": "https://huggingface.co/pyannote/speaker-diarization-3.1",
+    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2111.14448, arxiv:2012.01477, license:mit, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "mindlab-research/Macaron-V1-Preview-749B",
     "category": "text",
-    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-    "description": "transformers, safetensors, nemotron_h, text-generation, nvidia, pytorch, nemotron-3, latent-moe, mtp, conversational, en, fr, es, it, de, pt, ja, ko, hi, ar, zh, he, dataset:nvidia/nemotron-post-training-v3, dataset:nvidia/nemotron-pre-training-datasets, license:other, eval-results, endpoints_compatible, 8-bit, modelopt, region:us",
+    "link": "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
+    "description": "transformers, safetensors, glm_moe_dsa, text-generation, macaron, personal-agent, tool-use, mixture-of-lora, generative-ui, a2ui, glm, conversational, en, zh, base_model:zai-org/GLM-5.1, base_model:finetune:zai-org/GLM-5.1, license:mit, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -566,34 +518,34 @@
     ]
   },
   {
-    "name": "leejet/ideogram-4-GGUF",
-    "category": "image",
-    "link": "https://huggingface.co/leejet/ideogram-4-GGUF",
-    "description": "gguf, text-to-image, image-generation, stable-diffusion.cpp, en, zh, base_model:ideogram-ai/ideogram-4-fp8, base_model:quantized:ideogram-ai/ideogram-4-fp8, region:us",
+    "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "category": "text",
+    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "description": "transformers, safetensors, nemotron_h, text-generation, nvidia, pytorch, nemotron-3, latent-moe, mtp, conversational, en, fr, es, it, de, pt, ja, ko, hi, ar, zh, he, dataset:nvidia/nemotron-post-training-v3, dataset:nvidia/nemotron-pre-training-datasets, license:other, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
       },
       {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
       },
       {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
   {
-    "name": "mindlab-research/Macaron-V1-Preview-749B",
+    "name": "pat-jj/harness-1",
     "category": "text",
-    "link": "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
-    "description": "transformers, safetensors, glm_moe_dsa, text-generation, macaron, personal-agent, tool-use, mixture-of-lora, generative-ui, a2ui, glm, conversational, en, zh, base_model:zai-org/GLM-5.1, base_model:finetune:zai-org/GLM-5.1, license:mit, eval-results, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/pat-jj/harness-1",
+    "description": "transformers, safetensors, gpt_oss, text-generation, search, retrieval, harness-1, conversational, arxiv:2606.02373, base_model:openai/gpt-oss-20b, base_model:finetune:openai/gpt-oss-20b, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {

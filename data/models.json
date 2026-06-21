@@ -216,6 +216,30 @@
     ]
   },
   {
+    "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+    "description": "gguf, gemma4, coding, agentic, terminal, tool-use, reasoning, thinking, llama.cpp, local-llm, text-generation, base_model:google/gemma-4-12B-it, base_model:quantized:google/gemma-4-12B-it, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "unsloth/GLM-5.2-GGUF",
     "category": "text",
     "link": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
@@ -307,10 +331,10 @@
     ]
   },
   {
-    "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+    "name": "zai-org/GLM-5.2-FP8",
     "category": "text",
-    "link": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-    "description": "gguf, gemma4, coding, agentic, terminal, tool-use, reasoning, thinking, llama.cpp, local-llm, text-generation, base_model:google/gemma-4-12B-it, base_model:quantized:google/gemma-4-12B-it, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "link": "https://huggingface.co/zai-org/GLM-5.2-FP8",
+    "description": "transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763, arxiv:2603.12201, license:mit, endpoints_compatible, fp8, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -335,30 +359,6 @@
     "category": "text",
     "link": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
     "description": "transformers, safetensors, cohere2_moe, text-generation, conversational, chat, code, agent, license:apache-2.0, eval-results, deploy:azure, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "zai-org/GLM-5.2-FP8",
-    "category": "text",
-    "link": "https://huggingface.co/zai-org/GLM-5.2-FP8",
-    "description": "transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763, arxiv:2603.12201, license:mit, endpoints_compatible, fp8, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -427,30 +427,6 @@
     ]
   },
   {
-    "name": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
-    "category": "text",
-    "link": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED",
-    "description": "transformers, safetensors, gguf, gemma4_unified, image-text-to-text, gemma, gemma4, text-generation, obliteratus, refusal-analysis, red-team, aspa, abliteration, safety-research, alignment-research, conversational, base_model:google/gemma-4-12B-it, base_model:quantized:google/gemma-4-12B-it, license:gemma, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
     "name": "ostris/ideogram_4_turbotime_lora",
     "category": "image",
     "link": "https://huggingface.co/ostris/ideogram_4_turbotime_lora",
@@ -499,6 +475,78 @@
     ]
   },
   {
+    "name": "AlexWortega/SIQ-1-35B",
+    "category": "text",
+    "link": "https://huggingface.co/AlexWortega/SIQ-1-35B",
+    "description": "transformers, safetensors, gguf, qwen3_5_moe_text, text-generation, autoresearch, distillation, agentic, coding, agent, moe, tiny, conversational, en, base_model:Qwen/Qwen3.6-35B-A3B, base_model:finetune:Qwen/Qwen3.6-35B-A3B, license:apache-2.0, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "SulphurAI/Sulphur-2-base",
+    "category": "video",
+    "link": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+    "description": "diffusers, safetensors, gguf, text-to-video, base_model:Lightricks/LTX-2.3, base_model:quantized:Lightricks/LTX-2.3, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Whisper",
+        "link": "https://openai.com/research/whisper",
+        "description": "视频配音和字幕生成"
+      },
+      {
+        "name": "Flowframes",
+        "link": "https://nmkd.itch.io/flowframes",
+        "description": "视频插帧和流畅化"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "背景音乐生成"
+      }
+    ]
+  },
+  {
+    "name": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
+    "category": "text",
+    "link": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED",
+    "description": "transformers, safetensors, gguf, gemma4_unified, image-text-to-text, gemma, gemma4, text-generation, obliteratus, refusal-analysis, red-team, aspa, abliteration, safety-research, alignment-research, conversational, base_model:google/gemma-4-12B-it, base_model:quantized:google/gemma-4-12B-it, license:gemma, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
     "name": "ideogram-ai/ideogram-4-fp8",
     "category": "image",
     "link": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
@@ -543,78 +591,6 @@
         "name": "BLIP",
         "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
         "description": "图像描述生成"
-      }
-    ]
-  },
-  {
-    "name": "SulphurAI/Sulphur-2-base",
-    "category": "video",
-    "link": "https://huggingface.co/SulphurAI/Sulphur-2-base",
-    "description": "diffusers, safetensors, gguf, text-to-video, base_model:Lightricks/LTX-2.3, base_model:quantized:Lightricks/LTX-2.3, endpoints_compatible, region:us, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Whisper",
-        "link": "https://openai.com/research/whisper",
-        "description": "视频配音和字幕生成"
-      },
-      {
-        "name": "Flowframes",
-        "link": "https://nmkd.itch.io/flowframes",
-        "description": "视频插帧和流畅化"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "背景音乐生成"
-      }
-    ]
-  },
-  {
-    "name": "AlexWortega/SIQ-1-35B",
-    "category": "text",
-    "link": "https://huggingface.co/AlexWortega/SIQ-1-35B",
-    "description": "transformers, safetensors, gguf, qwen3_5_moe_text, text-generation, autoresearch, distillation, agentic, coding, agent, moe, tiny, conversational, en, base_model:Qwen/Qwen3.6-35B-A3B, base_model:finetune:Qwen/Qwen3.6-35B-A3B, license:apache-2.0, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "deepseek-ai/DeepSeek-V4-Flash",
-    "category": "text",
-    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
-    "description": "transformers, safetensors, deepseek_v4, text-generation, conversational, license:mit, eval-results, endpoints_compatible, 8-bit, fp8, region:us, deploy:azure",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
       }
     ]
   },

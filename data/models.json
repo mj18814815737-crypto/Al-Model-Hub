@@ -144,6 +144,30 @@
     ]
   },
   {
+    "name": "prism-ml/Bonsai-27B-gguf",
+    "category": "text",
+    "link": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+    "description": "llama.cpp, gguf, conversational, 1-bit, llama-cpp, cuda, metal, on-device, hybrid-attention, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.6-27B, base_model:quantized:Qwen/Qwen3.6-27B, license:apache-2.0, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "zai-org/GLM-5.2",
     "category": "text",
     "link": "https://huggingface.co/zai-org/GLM-5.2",
@@ -192,54 +216,6 @@
     ]
   },
   {
-    "name": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
-    "description": "gguf, llama.cpp, quantized, minicpm5, thinking, fable5, coding, instruction-following, text-generation, en, zh, base_model:GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking, base_model:quantized:GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking, license:apache-2.0, endpoints_compatible, region:us, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "prism-ml/Bonsai-27B-gguf",
-    "category": "text",
-    "link": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
-    "description": "llama.cpp, gguf, conversational, 1-bit, llama-cpp, cuda, metal, on-device, hybrid-attention, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.6-27B, base_model:quantized:Qwen/Qwen3.6-27B, license:apache-2.0, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
     "name": "InternScience/Agents-A1",
     "category": "text",
     "link": "https://huggingface.co/InternScience/Agents-A1",
@@ -260,6 +236,30 @@
         "name": "BLIP",
         "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
         "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
+    "description": "gguf, llama.cpp, quantized, minicpm5, thinking, fable5, coding, instruction-following, text-generation, en, zh, base_model:GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking, base_model:quantized:GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
@@ -312,10 +312,10 @@
     ]
   },
   {
-    "name": "nvidia/Nemotron-Labs-Audex-30B-A3B",
+    "name": "AngelSlim/Hy3-GGUF",
     "category": "text",
-    "link": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B",
-    "description": "transformers, safetensors, nemotron_labs_audex, nvidia, nemotron-labs-audex, reasoning, general-purpose, SFT, RL, audio-language-modeling, audio-understanding, text-to-speech, text-to-audio, speech-recognition, speech-translation, text-generation, en, arxiv:2607.05196, license:other, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/AngelSlim/Hy3-GGUF",
+    "description": "gguf, text-generation, base_model:tencent/Hy3, base_model:quantized:tencent/Hy3, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -360,26 +360,26 @@
     ]
   },
   {
-    "name": "mgwr/M87",
-    "category": "image",
-    "link": "https://huggingface.co/mgwr/M87",
-    "description": "diffusers, text-to-image, lora, template:diffusion-lora, base_model:krea/Krea-2-Turbo, base_model:adapter:krea/Krea-2-Turbo, license:apache-2.0, region:us",
+    "name": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
+    "description": "gguf, llama.cpp, quantized, minicpm5, thinking, fable5, tool-calling, function-calling, coding, instruction-following, conversational, text-generation, en, zh, base_model:GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking, base_model:quantized:GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking, license:apache-2.0, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
       },
       {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
       },
       {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
@@ -432,10 +432,58 @@
     ]
   },
   {
-    "name": "AngelSlim/Hy3-GGUF",
+    "name": "nvidia/Nemotron-Labs-Audex-30B-A3B",
     "category": "text",
-    "link": "https://huggingface.co/AngelSlim/Hy3-GGUF",
-    "description": "gguf, text-generation, base_model:tencent/Hy3, base_model:quantized:tencent/Hy3, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
+    "link": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B",
+    "description": "transformers, safetensors, nemotron_labs_audex, nvidia, nemotron-labs-audex, reasoning, general-purpose, SFT, RL, audio-language-modeling, audio-understanding, text-to-speech, text-to-audio, speech-recognition, speech-translation, text-generation, en, arxiv:2607.05196, license:other, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "mgwr/M87",
+    "category": "image",
+    "link": "https://huggingface.co/mgwr/M87",
+    "description": "diffusers, text-to-image, lora, template:diffusion-lora, base_model:krea/Krea-2-Turbo, base_model:adapter:krea/Krea-2-Turbo, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "prism-ml/Ternary-Bonsai-27B-mlx-2bit",
+    "category": "text",
+    "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-mlx-2bit",
+    "description": "mlx, safetensors, qwen3_5, conversational, ternary, 2-bit, cuda, metal, on-device, hybrid-attention, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.6-27B, base_model:finetune:Qwen/Qwen3.6-27B, license:apache-2.0, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -480,34 +528,10 @@
     ]
   },
   {
-    "name": "ostris/krea2_turbo_style_reference",
-    "category": "image",
-    "link": "https://huggingface.co/ostris/krea2_turbo_style_reference",
-    "description": "diffusers, text-to-image, lora, template:diffusion-lora, base_model:krea/Krea-2-Turbo, base_model:adapter:krea/Krea-2-Turbo, license:other, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
-    "name": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+    "name": "prism-ml/Bonsai-27B-mlx-1bit",
     "category": "text",
-    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-    "description": "transformers, safetensors, nemotron_h_puzzle, text-generation, nvidia, pytorch, nemotron-3, latent-moe, mtp, conversational, custom_code, en, fr, es, it, de, ja, zh, dataset:nvidia/nemotron-post-training-v3, dataset:nvidia/nemotron-pre-training-datasets, arxiv:2607.04371, arxiv:2411.19146, arxiv:2604.12374, arxiv:2512.20848, base_model:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16, base_model:quantized:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16, license:other, 8-bit, modelopt, region:us",
+    "link": "https://huggingface.co/prism-ml/Bonsai-27B-mlx-1bit",
+    "description": "mlx, safetensors, qwen3_5, conversational, 1-bit, cuda, metal, on-device, hybrid-attention, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.6-27B, base_model:finetune:Qwen/Qwen3.6-27B, license:apache-2.0, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -528,10 +552,10 @@
     ]
   },
   {
-    "name": "krea/Krea-2-Turbo",
-    "category": "image",
-    "link": "https://huggingface.co/krea/Krea-2-Turbo",
-    "description": "diffusers, safetensors, text-to-image, en, base_model:krea/Krea-2-Raw, base_model:finetune:krea/Krea-2-Raw, license:other, diffusers:Krea2Pipeline, region:us",
+    "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+    "category": "text",
+    "link": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+    "description": "transformers, safetensors, qwen3_5, image-text-to-text, qwen3.5, reasoning, uncensored, long-context, 1M-context, function-calling, tool-use, sft, full-fine-tune, cybersecurity, biomedical, agentic, text-generation, conversational, en, base_model:Qwen/Qwen3.5-9B, base_model:finetune:Qwen/Qwen3.5-9B, license:apache-2.0, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -572,49 +596,6 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "CohereLabs/cohere-transcribe-arabic-07-2026",
-    "category": "audio",
-    "link": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026",
-    "description": "transformers, safetensors, cohere_asr, automatic-speech-recognition, audio, speech-recognition, transcription, arabic, asr, arabic-asr, arabic-dialect, arabic-speech-recognition, ar, en, base_model:CohereLabs/cohere-transcribe-03-2026, base_model:finetune:CohereLabs/cohere-transcribe-03-2026, doi:10.57967/hf/9549, license:apache-2.0, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
-    "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-    "category": "text",
-    "link": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-    "description": "transformers, safetensors, qwen3_5, image-text-to-text, qwen3.5, reasoning, uncensored, long-context, 1M-context, function-calling, tool-use, sft, full-fine-tune, cybersecurity, biomedical, agentic, text-generation, conversational, en, base_model:Qwen/Qwen3.5-9B, base_model:finetune:Qwen/Qwen3.5-9B, license:apache-2.0, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
       }
     ]
   },

@@ -147,7 +147,7 @@
     "name": "upstage/Solar-Open2-250B",
     "category": "text",
     "link": "https://huggingface.co/upstage/Solar-Open2-250B",
-    "description": "transformers, safetensors, solar_open2, text-generation, upstage, solar, moe, llm, vllm, conversational, en, ko, ja, license:other, eval-results, endpoints_compatible, region:us",
+    "description": "transformers, safetensors, solar_open2, text-generation, upstage, solar, moe, llm, vllm, conversational, en, ko, ja, arxiv:2607.20062, license:other, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -216,30 +216,6 @@
     ]
   },
   {
-    "name": "prism-ml/Ternary-Bonsai-27B-gguf",
-    "category": "text",
-    "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
-    "description": "llama.cpp, gguf, conversational, ternary, 2-bit, llama-cpp, cuda, metal, on-device, hybrid-attention, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.6-27B, base_model:quantized:Qwen/Qwen3.6-27B, license:apache-2.0, eval-results, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
     "name": "zai-org/GLM-5.2",
     "category": "text",
     "link": "https://huggingface.co/zai-org/GLM-5.2",
@@ -264,10 +240,10 @@
     ]
   },
   {
-    "name": "Motif-Technologies/Motif-3-Beta",
+    "name": "prism-ml/Ternary-Bonsai-27B-gguf",
     "category": "text",
-    "link": "https://huggingface.co/Motif-Technologies/Motif-3-Beta",
-    "description": "transformers, safetensors, Motif, feature-extraction, motif, motif-3, mixture-of-experts, moe, long-context, multilingual, preview, text-generation, conversational, custom_code, en, ko, region:us",
+    "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+    "description": "llama.cpp, gguf, conversational, ternary, 2-bit, llama-cpp, cuda, metal, on-device, hybrid-attention, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.6-27B, base_model:quantized:Qwen/Qwen3.6-27B, license:apache-2.0, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -284,6 +260,30 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "Kwaipilot/KAT-Coder-V2.5-Dev",
+    "category": "text",
+    "link": "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev",
+    "description": "transformers, safetensors, qwen3_5_moe, image-text-to-text, code, agent, agentic-coding, moe, coding, text-generation, conversational, en, zh, arxiv:2607.05471, license:apache-2.0, eval-results, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
@@ -312,34 +312,10 @@
     ]
   },
   {
-    "name": "Kwaipilot/KAT-Coder-V2.5-Dev",
+    "name": "Motif-Technologies/Motif-3-Beta",
     "category": "text",
-    "link": "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev",
-    "description": "transformers, safetensors, qwen3_5_moe, image-text-to-text, code, agent, agentic-coding, moe, coding, text-generation, conversational, en, zh, arxiv:2607.05471, license:apache-2.0, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
-    "name": "prism-ml/Bonsai-27B-gguf",
-    "category": "text",
-    "link": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
-    "description": "llama.cpp, gguf, conversational, 1-bit, llama-cpp, cuda, metal, on-device, hybrid-attention, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.6-27B, base_model:quantized:Qwen/Qwen3.6-27B, license:apache-2.0, eval-results, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/Motif-Technologies/Motif-3-Beta",
+    "description": "transformers, safetensors, Motif, feature-extraction, motif, motif-3, mixture-of-experts, moe, long-context, multilingual, preview, text-generation, conversational, custom_code, en, ko, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -408,10 +384,10 @@
     ]
   },
   {
-    "name": "unsloth/Ornith-1.0-35B-GGUF",
+    "name": "prism-ml/Bonsai-27B-gguf",
     "category": "text",
-    "link": "https://huggingface.co/unsloth/Ornith-1.0-35B-GGUF",
-    "description": "gguf, unsloth, qwen3_5_moe, text-generation, base_model:deepreinforce-ai/Ornith-1.0-35B, base_model:quantized:deepreinforce-ai/Ornith-1.0-35B, license:mit, endpoints_compatible, region:us, imatrix, conversational",
+    "link": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+    "description": "llama.cpp, gguf, conversational, 1-bit, llama-cpp, cuda, metal, on-device, hybrid-attention, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.6-27B, base_model:quantized:Qwen/Qwen3.6-27B, license:apache-2.0, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -452,73 +428,6 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "Alissonerdx/LTX-Best-Face-ID",
-    "category": "video",
-    "link": "https://huggingface.co/Alissonerdx/LTX-Best-Face-ID",
-    "description": "ltx-video, identity-preservation, ipt2v, reference-to-video, lora, comfyui, ltx2.3, text-to-video, arxiv:2606.02441, base_model:Lightricks/LTX-2.3, base_model:adapter:Lightricks/LTX-2.3, license:other, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Whisper",
-        "link": "https://openai.com/research/whisper",
-        "description": "视频配音和字幕生成"
-      },
-      {
-        "name": "Flowframes",
-        "link": "https://nmkd.itch.io/flowframes",
-        "description": "视频插帧和流畅化"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "背景音乐生成"
-      }
-    ]
-  },
-  {
-    "name": "krea/Krea-2-Turbo",
-    "category": "image",
-    "link": "https://huggingface.co/krea/Krea-2-Turbo",
-    "description": "diffusers, safetensors, text-to-image, en, base_model:krea/Krea-2-Raw, base_model:finetune:krea/Krea-2-Raw, license:other, diffusers:Krea2Pipeline, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
-    "name": "nvidia/nemotron-3.5-asr-streaming-0.6b",
-    "category": "audio",
-    "link": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
-    "description": "nemo, safetensors, nemotron3_5_asr, feature-extraction, transformers, speech-recognition, cache-aware ASR, automatic-speech-recognition, streaming-asr, multilingual, speech, audio, FastConformer, RNNT, Parakeet, ASR, pytorch, NeMo, en, es, de, fr, it, ar, ja, ko, pt, ru, hi, zh, vi, he, nl, cs, da, pl, no, sv, th, tr, bg, el, et, fi, hr, hu, lt, lv, ro, sk, uk, mt, sl, dataset:nvidia/Granary, dataset:multilingual_librispeech, dataset:fleurs, dataset:mozilla-foundation/common_voice_8_0, dataset:voxpopuli, dataset:europarl, arxiv:2312.17279, arxiv:2305.05084, license:other, model-index, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
       }
     ]
   },
@@ -571,10 +480,34 @@
     ]
   },
   {
-    "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+    "name": "krea/Krea-2-Turbo",
+    "category": "image",
+    "link": "https://huggingface.co/krea/Krea-2-Turbo",
+    "description": "diffusers, safetensors, text-to-image, en, base_model:krea/Krea-2-Raw, base_model:finetune:krea/Krea-2-Raw, license:other, diffusers:Krea2Pipeline, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "ProCreations/grug-27b",
     "category": "text",
-    "link": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-    "description": "gguf, gemma4, coding, agentic, terminal, tool-use, reasoning, thinking, llama.cpp, local-llm, text-generation, base_model:google/gemma-4-12B-it, base_model:quantized:google/gemma-4-12B-it, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "link": "https://huggingface.co/ProCreations/grug-27b",
+    "description": "safetensors, qwen3_5, grug, reasoning, token-efficient, agentic, tool-use, text-generation, conversational, en, dataset:ProCreations/grug-think-v3-10k, dataset:ProCreations/grug-think, base_model:Qwen/Qwen3.6-27B, base_model:finetune:Qwen/Qwen3.6-27B, license:apache-2.0, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -595,10 +528,96 @@
     ]
   },
   {
-    "name": "ProCreations/grug-27b",
+    "name": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "category": "audio",
+    "link": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "description": "nemo, safetensors, nemotron3_5_asr, feature-extraction, transformers, speech-recognition, cache-aware ASR, automatic-speech-recognition, streaming-asr, multilingual, speech, audio, FastConformer, RNNT, Parakeet, ASR, pytorch, NeMo, en, es, de, fr, it, ar, ja, ko, pt, ru, hi, zh, vi, he, nl, cs, da, pl, no, sv, th, tr, bg, el, et, fi, hr, hu, lt, lv, ro, sk, uk, mt, sl, dataset:nvidia/Granary, dataset:multilingual_librispeech, dataset:fleurs, dataset:mozilla-foundation/common_voice_8_0, dataset:voxpopuli, dataset:europarl, arxiv:2312.17279, arxiv:2305.05084, license:other, model-index, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "unsloth/Ornith-1.0-35B-GGUF",
     "category": "text",
-    "link": "https://huggingface.co/ProCreations/grug-27b",
-    "description": "safetensors, qwen3_5, grug, reasoning, token-efficient, agentic, tool-use, text-generation, conversational, en, dataset:ProCreations/grug-think-v3-10k, dataset:ProCreations/grug-think, base_model:Qwen/Qwen3.6-27B, base_model:finetune:Qwen/Qwen3.6-27B, license:apache-2.0, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/unsloth/Ornith-1.0-35B-GGUF",
+    "description": "gguf, unsloth, qwen3_5_moe, text-generation, base_model:deepreinforce-ai/Ornith-1.0-35B, base_model:quantized:deepreinforce-ai/Ornith-1.0-35B, license:mit, endpoints_compatible, region:us, imatrix, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "Alissonerdx/LTX-Best-Face-ID",
+    "category": "video",
+    "link": "https://huggingface.co/Alissonerdx/LTX-Best-Face-ID",
+    "description": "ltx-video, identity-preservation, ipt2v, reference-to-video, lora, comfyui, ltx2.3, text-to-video, arxiv:2606.02441, base_model:Lightricks/LTX-2.3, base_model:adapter:Lightricks/LTX-2.3, license:other, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Whisper",
+        "link": "https://openai.com/research/whisper",
+        "description": "视频配音和字幕生成"
+      },
+      {
+        "name": "Flowframes",
+        "link": "https://nmkd.itch.io/flowframes",
+        "description": "视频插帧和流畅化"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "背景音乐生成"
+      }
+    ]
+  },
+  {
+    "name": "microsoft/VibeVoice-ASR-BitNet",
+    "category": "audio",
+    "link": "https://huggingface.co/microsoft/VibeVoice-ASR-BitNet",
+    "description": "ggml, safetensors, gguf, vibevoice, ASR, quantization, cpu-inference, bitnet, multilingual, automatic-speech-recognition, en, zh, fr, it, ko, pt, vi, arxiv:2607.21075, license:mit, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+    "description": "gguf, gemma4, coding, agentic, terminal, tool-use, reasoning, thinking, llama.cpp, local-llm, text-generation, base_model:google/gemma-4-12B-it, base_model:quantized:google/gemma-4-12B-it, license:apache-2.0, endpoints_compatible, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {

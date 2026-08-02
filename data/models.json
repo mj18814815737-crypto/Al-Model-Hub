@@ -240,30 +240,6 @@
     ]
   },
   {
-    "name": "upstage/Solar-Open2-250B",
-    "category": "text",
-    "link": "https://huggingface.co/upstage/Solar-Open2-250B",
-    "description": "transformers, safetensors, solar_open2, text-generation, upstage, solar, moe, llm, vllm, conversational, en, ko, ja, arxiv:2607.20062, license:other, eval-results, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
     "name": "XYZAILab/XYZ-Aquila-mini",
     "category": "text",
     "link": "https://huggingface.co/XYZAILab/XYZ-Aquila-mini",
@@ -288,10 +264,34 @@
     ]
   },
   {
-    "name": "nota-ai/Solar-Open2-250B-Nota-NVFP4",
+    "name": "upstage/Solar-Open2-250B",
     "category": "text",
-    "link": "https://huggingface.co/nota-ai/Solar-Open2-250B-Nota-NVFP4",
-    "description": "vllm, safetensors, solar_open2, quantization, nvfp4, moe, nota, text-generation, conversational, custom_code, en, ko, ja, base_model:upstage/Solar-Open2-250B, base_model:quantized:upstage/Solar-Open2-250B, license:other, 8-bit, compressed-tensors, region:us",
+    "link": "https://huggingface.co/upstage/Solar-Open2-250B",
+    "description": "transformers, safetensors, solar_open2, text-generation, upstage, solar, moe, llm, vllm, conversational, en, ko, ja, arxiv:2607.20062, license:other, eval-results, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "deepseek-ai/DeepSeek-V4-Flash",
+    "category": "text",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+    "description": "transformers, safetensors, deepseek_v4, text-generation, conversational, arxiv:2606.19348, license:mit, eval-results, endpoints_compatible, 8-bit, fp8, region:us, deploy:azure",
     "downloadUrl": "",
     "mates": [
       {
@@ -336,10 +336,10 @@
     ]
   },
   {
-    "name": "deepseek-ai/DeepSeek-V4-Flash",
+    "name": "nota-ai/Solar-Open2-250B-Nota-NVFP4",
     "category": "text",
-    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
-    "description": "transformers, safetensors, deepseek_v4, text-generation, conversational, arxiv:2606.19348, license:mit, eval-results, endpoints_compatible, 8-bit, fp8, region:us, deploy:azure",
+    "link": "https://huggingface.co/nota-ai/Solar-Open2-250B-Nota-NVFP4",
+    "description": "vllm, safetensors, solar_open2, quantization, nvfp4, moe, nota, text-generation, conversational, custom_code, en, ko, ja, base_model:upstage/Solar-Open2-250B, base_model:quantized:upstage/Solar-Open2-250B, license:other, 8-bit, compressed-tensors, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -384,6 +384,30 @@
     ]
   },
   {
+    "name": "lodestones/Kroma",
+    "category": "image",
+    "link": "https://huggingface.co/lodestones/Kroma",
+    "description": "lora, krea2, krea, text-to-image, comfyui, license:mit, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
     "name": "prism-ml/Ternary-Bonsai-27B-gguf",
     "category": "text",
     "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
@@ -423,30 +447,6 @@
         "name": "Stable Audio",
         "link": "https://stability.ai/stable-audio",
         "description": "音频生成"
-      }
-    ]
-  },
-  {
-    "name": "fdtn-ai/antares-1b",
-    "category": "text",
-    "link": "https://huggingface.co/fdtn-ai/antares-1b",
-    "description": "transformers, safetensors, granitemoehybrid, text-generation, security, vulnerability-detection, agentic, terminal-agent, reinforcement-learning, granite, conversational, en, base_model:ibm-granite/granite-4.0-1b, base_model:finetune:ibm-granite/granite-4.0-1b, license:apache-2.0, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
       }
     ]
   },
@@ -523,26 +523,26 @@
     ]
   },
   {
-    "name": "lodestones/Kroma",
-    "category": "image",
-    "link": "https://huggingface.co/lodestones/Kroma",
-    "description": "lora, krea2, krea, text-to-image, comfyui, license:mit, region:us",
+    "name": "fdtn-ai/antares-1b",
+    "category": "text",
+    "link": "https://huggingface.co/fdtn-ai/antares-1b",
+    "description": "transformers, safetensors, granitemoehybrid, text-generation, security, vulnerability-detection, agentic, terminal-agent, reinforcement-learning, granite, conversational, en, base_model:ibm-granite/granite-4.0-1b, base_model:finetune:ibm-granite/granite-4.0-1b, license:apache-2.0, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
       },
       {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
       },
       {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
@@ -619,6 +619,25 @@
     ]
   },
   {
+    "name": "nyralabs/CrisperWhisper2.0_large",
+    "category": "audio",
+    "link": "https://huggingface.co/nyralabs/CrisperWhisper2.0_large",
+    "description": "crisperwhisper, safetensors, whisper, speech-recognition, verbatim, disfluency, ctranslate2, word-timestamps, automatic-speech-recognition, en, de, arxiv:2607.18934, license:other, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
     "name": "FermionResearch/Neutrino-8B",
     "category": "text",
     "link": "https://huggingface.co/FermionResearch/Neutrino-8B",
@@ -639,25 +658,6 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "nyralabs/CrisperWhisper2.0_large",
-    "category": "audio",
-    "link": "https://huggingface.co/nyralabs/CrisperWhisper2.0_large",
-    "description": "crisperwhisper, safetensors, whisper, speech-recognition, verbatim, disfluency, ctranslate2, word-timestamps, automatic-speech-recognition, en, de, arxiv:2607.18934, license:other, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
       }
     ]
   },

@@ -264,34 +264,34 @@
     ]
   },
   {
-    "name": "LiquidAI/LFM2.5-2.6B-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
-    "description": "gguf, liquid, lfm2.5, llama.cpp, text-generation, ar, zh, en, fr, de, hi, id, it, ja, ko, pl, pt, ru, es, th, vi, base_model:LiquidAI/LFM2.5-2.6B, base_model:quantized:LiquidAI/LFM2.5-2.6B, license:other, endpoints_compatible, region:us, conversational",
+    "name": "SexGod1979/PinkCherry_MiniMax-H3",
+    "category": "video",
+    "link": "https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3",
+    "description": "transformers, text-to-video, minimax-h3, license:apache-2.0, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
+        "name": "Whisper",
+        "link": "https://openai.com/research/whisper",
+        "description": "视频配音和字幕生成"
       },
       {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
+        "name": "Flowframes",
+        "link": "https://nmkd.itch.io/flowframes",
+        "description": "视频插帧和流畅化"
       },
       {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "背景音乐生成"
       }
     ]
   },
   {
-    "name": "zai-org/GLM-5.2",
+    "name": "LiquidAI/LFM2.5-2.6B-GGUF",
     "category": "text",
-    "link": "https://huggingface.co/zai-org/GLM-5.2",
-    "description": "transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763, arxiv:2603.12201, license:mit, eval-results, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
+    "description": "gguf, liquid, lfm2.5, llama.cpp, text-generation, ar, zh, en, fr, de, hi, id, it, ja, ko, pl, pt, ru, es, th, vi, base_model:LiquidAI/LFM2.5-2.6B, base_model:quantized:LiquidAI/LFM2.5-2.6B, license:other, endpoints_compatible, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -336,50 +336,26 @@
     ]
   },
   {
-    "name": "SexGod1979/PinkCherry_MiniMax-H3",
-    "category": "video",
-    "link": "https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3",
-    "description": "transformers, text-to-video, minimax-h3, license:apache-2.0, endpoints_compatible, region:us",
+    "name": "zai-org/GLM-5.2",
+    "category": "text",
+    "link": "https://huggingface.co/zai-org/GLM-5.2",
+    "description": "transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763, arxiv:2603.12201, license:mit, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "Whisper",
-        "link": "https://openai.com/research/whisper",
-        "description": "视频配音和字幕生成"
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
       },
       {
-        "name": "Flowframes",
-        "link": "https://nmkd.itch.io/flowframes",
-        "description": "视频插帧和流畅化"
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
       },
       {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "背景音乐生成"
-      }
-    ]
-  },
-  {
-    "name": "lodestones/Kroma",
-    "category": "image",
-    "link": "https://huggingface.co/lodestones/Kroma",
-    "description": "lora, krea2, krea, text-to-image, comfyui, license:mit, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
@@ -456,6 +432,73 @@
     ]
   },
   {
+    "name": "openai/whisper-large-v3",
+    "category": "audio",
+    "link": "https://huggingface.co/openai/whisper-large-v3",
+    "description": "transformers, pytorch, jax, safetensors, whisper, automatic-speech-recognition, audio, hf-asr-leaderboard, en, zh, de, es, ru, ko, fr, ja, pt, tr, pl, ca, nl, ar, sv, it, id, hi, fi, vi, he, uk, el, ms, cs, ro, da, hu, ta, no, th, ur, hr, bg, lt, la, mi, ml, cy, sk, te, fa, lv, bn, sr, az, sl, kn, et, mk, br, eu, is, hy, ne, mn, bs, kk, sq, sw, gl, mr, pa, si, km, sn, yo, so, af, oc, ka, be, tg, sd, gu, am, yi, lo, uz, fo, ht, ps, tk, nn, mt, sa, lb, my, bo, tl, mg, as, tt, haw, ln, ha, ba, jw, su, arxiv:2212.04356, license:apache-2.0, eval-results, endpoints_compatible, region:us, deploy:sagemaker, deploy:azure",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "lodestones/Kroma",
+    "category": "image",
+    "link": "https://huggingface.co/lodestones/Kroma",
+    "description": "krea2, krea, text-to-image, comfyui, license:other, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "Akahsizrr/fuse-1-Lite",
+    "category": "text",
+    "link": "https://huggingface.co/Akahsizrr/fuse-1-Lite",
+    "description": "transformers, safetensors, fuse3, text-generation, mixture-of-experts, MoE, coding, python, code-generation, LFM2, Qwen, LiquidAI, small-language-model, SLM, agentic, fusion, expert-routing, 5B, efficient-inference, conversational, en, base_model:LiquidAI/LFM2.5-2.6B, base_model:finetune:LiquidAI/LFM2.5-2.6B, license:apache-2.0, model-index, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "deepseek-ai/DeepSeek-V4-Flash",
     "category": "text",
     "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
@@ -480,53 +523,10 @@
     ]
   },
   {
-    "name": "openai/whisper-large-v3",
-    "category": "audio",
-    "link": "https://huggingface.co/openai/whisper-large-v3",
-    "description": "transformers, pytorch, jax, safetensors, whisper, automatic-speech-recognition, audio, hf-asr-leaderboard, en, zh, de, es, ru, ko, fr, ja, pt, tr, pl, ca, nl, ar, sv, it, id, hi, fi, vi, he, uk, el, ms, cs, ro, da, hu, ta, no, th, ur, hr, bg, lt, la, mi, ml, cy, sk, te, fa, lv, bn, sr, az, sl, kn, et, mk, br, eu, is, hy, ne, mn, bs, kk, sq, sw, gl, mr, pa, si, km, sn, yo, so, af, oc, ka, be, tg, sd, gu, am, yi, lo, uz, fo, ht, ps, tk, nn, mt, sa, lb, my, bo, tl, mg, as, tt, haw, ln, ha, ba, jw, su, arxiv:2212.04356, license:apache-2.0, eval-results, endpoints_compatible, region:us, deploy:sagemaker, deploy:azure",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
     "name": "meta-llama/Llama-3.1-8B-Instruct",
     "category": "text",
     "link": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
     "description": "transformers, safetensors, llama, text-generation, facebook, meta, pytorch, llama-3, conversational, en, de, fr, it, pt, hi, es, th, arxiv:2204.05149, base_model:meta-llama/Llama-3.1-8B, base_model:finetune:meta-llama/Llama-3.1-8B, license:llama3.1, eval-results, text-generation-inference, endpoints_compatible, region:us, deploy:sagemaker",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "Akahsizrr/fuse-1-Lite",
-    "category": "text",
-    "link": "https://huggingface.co/Akahsizrr/fuse-1-Lite",
-    "description": "transformers, safetensors, fuse3, text-generation, mixture-of-experts, MoE, coding, python, code-generation, LFM2, Qwen, LiquidAI, small-language-model, SLM, agentic, fusion, expert-routing, 5B, efficient-inference, conversational, en, base_model:LiquidAI/LFM2.5-2.6B, base_model:finetune:LiquidAI/LFM2.5-2.6B, license:apache-2.0, model-index, region:us",
     "downloadUrl": "",
     "mates": [
       {

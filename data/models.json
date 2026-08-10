@@ -336,30 +336,6 @@
     ]
   },
   {
-    "name": "zai-org/GLM-5.2",
-    "category": "text",
-    "link": "https://huggingface.co/zai-org/GLM-5.2",
-    "description": "transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763, arxiv:2603.12201, license:mit, eval-results, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
     "name": "black-forest-labs/FLUX.1-dev",
     "category": "image",
     "link": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
@@ -384,34 +360,10 @@
     ]
   },
   {
-    "name": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+    "name": "zai-org/GLM-5.2",
     "category": "text",
-    "link": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-    "description": "gguf, abliterated, uncensored, GGUF, huihui, quantized, deepseek, deepseek-v4, deepseek-v4-flash-0731, moe, mixture-of-experts, 2-bit, 4-bit, iq2_xxs, q2_k, q4_k, ds4, apple-silicon, metal, unsloth, text-generation, base_model:deepseek-ai/DeepSeek-V4-Flash-0731, base_model:quantized:deepseek-ai/DeepSeek-V4-Flash-0731, license:mit, endpoints_compatible, region:us, imatrix, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "EschaLabs/Qwen3.6-35B-A3B-Escha-W2",
-    "category": "text",
-    "link": "https://huggingface.co/EschaLabs/Qwen3.6-35B-A3B-Escha-W2",
-    "description": "safetensors, qwen3_5_moe, mixture-of-experts, moe, qwen3, 2-bit, quantization, eschamoe, sglang, zml, code, reasoning, conversational, text-generation, en, base_model:Qwen/Qwen3.6-35B-A3B, base_model:quantized:Qwen/Qwen3.6-35B-A3B, license:apache-2.0, model-index, region:us",
+    "link": "https://huggingface.co/zai-org/GLM-5.2",
+    "description": "transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763, arxiv:2603.12201, license:mit, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -451,26 +403,26 @@
     ]
   },
   {
-    "name": "lodestones/Kroma",
-    "category": "image",
-    "link": "https://huggingface.co/lodestones/Kroma",
-    "description": "krea2, krea, text-to-image, comfyui, license:other, region:us",
+    "name": "EschaLabs/Qwen3.6-35B-A3B-Escha-W2",
+    "category": "text",
+    "link": "https://huggingface.co/EschaLabs/Qwen3.6-35B-A3B-Escha-W2",
+    "description": "mlx, safetensors, qwen3_5_moe, mixture-of-experts, moe, qwen3, 2-bit, quantization, eschamoe, sglang, zml, apple-silicon, macos, metal, code, reasoning, conversational, text-generation, en, base_model:Qwen/Qwen3.6-35B-A3B, base_model:quantized:Qwen/Qwen3.6-35B-A3B, license:apache-2.0, model-index, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
       },
       {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
       },
       {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
@@ -478,55 +430,7 @@
     "name": "Akahsizrr/fuse-1-Lite",
     "category": "text",
     "link": "https://huggingface.co/Akahsizrr/fuse-1-Lite",
-    "description": "transformers, safetensors, fuse3, text-generation, mixture-of-experts, MoE, coding, python, code-generation, LFM2, Qwen, LiquidAI, small-language-model, SLM, agentic, fusion, expert-routing, 5B, efficient-inference, conversational, en, base_model:LiquidAI/LFM2.5-2.6B, base_model:finetune:LiquidAI/LFM2.5-2.6B, license:apache-2.0, model-index, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "deepseek-ai/DeepSeek-V4-Flash",
-    "category": "text",
-    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
-    "description": "transformers, safetensors, deepseek_v4, text-generation, conversational, arxiv:2606.19348, license:mit, eval-results, endpoints_compatible, 8-bit, fp8, deploy:azure, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "meta-llama/Llama-3.1-8B-Instruct",
-    "category": "text",
-    "link": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-    "description": "transformers, safetensors, llama, text-generation, facebook, meta, pytorch, llama-3, conversational, en, de, fr, it, pt, hi, es, th, arxiv:2204.05149, base_model:meta-llama/Llama-3.1-8B, base_model:finetune:meta-llama/Llama-3.1-8B, license:llama3.1, eval-results, text-generation-inference, endpoints_compatible, region:us, deploy:sagemaker",
+    "description": "transformers, safetensors, fuse3, text-generation, mixture-of-experts, MoE, coding, python, code-generation, LFM2, Qwen, LiquidAI, small-language-model, SLM, agentic, fusion, expert-routing, 5B, efficient-inference, conversational, custom_code, en, base_model:LiquidAI/LFM2.5-2.6B, base_model:finetune:LiquidAI/LFM2.5-2.6B, license:apache-2.0, model-index, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -571,10 +475,106 @@
     ]
   },
   {
+    "name": "lodestones/Kroma",
+    "category": "image",
+    "link": "https://huggingface.co/lodestones/Kroma",
+    "description": "krea2, krea, text-to-image, comfyui, license:other, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "meta-llama/Llama-3.1-8B-Instruct",
+    "category": "text",
+    "link": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "description": "transformers, safetensors, llama, text-generation, facebook, meta, pytorch, llama-3, conversational, en, de, fr, it, pt, hi, es, th, arxiv:2204.05149, base_model:meta-llama/Llama-3.1-8B, base_model:finetune:meta-llama/Llama-3.1-8B, license:llama3.1, eval-results, text-generation-inference, endpoints_compatible, region:us, deploy:sagemaker",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "deepseek-ai/DeepSeek-V4-Flash",
+    "category": "text",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+    "description": "transformers, safetensors, deepseek_v4, text-generation, conversational, arxiv:2606.19348, license:mit, eval-results, endpoints_compatible, 8-bit, fp8, deploy:azure, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "Qwen/Qwen2.5-7B-Instruct",
     "category": "text",
     "link": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
     "description": "transformers, safetensors, qwen2, text-generation, chat, conversational, en, arxiv:2309.00071, arxiv:2407.10671, base_model:Qwen/Qwen2.5-7B, base_model:finetune:Qwen/Qwen2.5-7B, license:apache-2.0, eval-results, text-generation-inference, endpoints_compatible, deploy:sagemaker, deploy:azure, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+    "description": "gguf, abliterated, uncensored, GGUF, huihui, quantized, deepseek, deepseek-v4, deepseek-v4-flash-0731, moe, mixture-of-experts, 2-bit, 4-bit, iq2_xxs, q2_k, q4_k, ds4, apple-silicon, metal, unsloth, text-generation, base_model:deepseek-ai/DeepSeek-V4-Flash-0731, base_model:quantized:deepseek-ai/DeepSeek-V4-Flash-0731, license:mit, endpoints_compatible, region:us, imatrix, conversational",
     "downloadUrl": "",
     "mates": [
       {

@@ -144,6 +144,30 @@
     ]
   },
   {
+    "name": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "category": "text",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+    "description": "transformers, safetensors, deepseek_v4, text-generation, conversational, arxiv:2606.19348, license:mit, endpoints_compatible, 8-bit, fp8, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
     "category": "text",
     "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
@@ -168,10 +192,10 @@
     ]
   },
   {
-    "name": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
     "category": "text",
-    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
-    "description": "transformers, safetensors, deepseek_v4, text-generation, conversational, arxiv:2606.19348, license:mit, endpoints_compatible, 8-bit, fp8, region:us",
+    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+    "description": "transformers, safetensors, nemotron_h, text-generation, nvidia, pytorch, nemotron-3.5, conversational, en, es, fr, de, it, ja, license:other, eval-results, endpoints_compatible, 8-bit, modelopt, deploy:azure, deploy:sagemaker, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -212,30 +236,6 @@
         "name": "Stable Audio",
         "link": "https://stability.ai/stable-audio",
         "description": "背景音乐生成"
-      }
-    ]
-  },
-  {
-    "name": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-    "category": "text",
-    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-    "description": "transformers, safetensors, nemotron_h, text-generation, nvidia, pytorch, nemotron-3.5, conversational, en, es, fr, de, it, ja, license:other, eval-results, endpoints_compatible, 8-bit, modelopt, deploy:azure, deploy:sagemaker, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
       }
     ]
   },
@@ -312,30 +312,6 @@
     ]
   },
   {
-    "name": "SexGod1979/PinkCherry_MiniMax-H3",
-    "category": "video",
-    "link": "https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3",
-    "description": "transformers, minimax-h3, text-to-video, license:apache-2.0, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Whisper",
-        "link": "https://openai.com/research/whisper",
-        "description": "视频配音和字幕生成"
-      },
-      {
-        "name": "Flowframes",
-        "link": "https://nmkd.itch.io/flowframes",
-        "description": "视频插帧和流畅化"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "背景音乐生成"
-      }
-    ]
-  },
-  {
     "name": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
     "category": "text",
     "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
@@ -360,34 +336,10 @@
     ]
   },
   {
-    "name": "drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
-    "category": "video",
-    "link": "https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
-    "description": "minimax-h3, lora, adapter, comfyui, text-to-video, reference-to-video, audio-video, synchronized-audio, few-step, turbo, accelerated-inference, lightx2v, dynamic-rank, svd, safetensors, bfloat16, pruned-model, curve-form, base_model:Comfy-Org/MiniMax-H3, base_model:adapter:Comfy-Org/MiniMax-H3, license:apache-2.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Whisper",
-        "link": "https://openai.com/research/whisper",
-        "description": "视频配音和字幕生成"
-      },
-      {
-        "name": "Flowframes",
-        "link": "https://nmkd.itch.io/flowframes",
-        "description": "视频插帧和流畅化"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "背景音乐生成"
-      }
-    ]
-  },
-  {
-    "name": "inclusionAI/Ling-3.0-flash",
+    "name": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
     "category": "text",
-    "link": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
-    "description": "safetensors, bailing_hybrid, text-generation, conversational, custom_code, license:mit, eval-results, region:us",
+    "link": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+    "description": "llama.cpp, gguf, uncensored, qwen3.8, mtp, speculative-decoding, imatrix, quantized, text-generation, en, zh, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -408,10 +360,34 @@
     ]
   },
   {
-    "name": "deepgrove/maple-preview",
+    "name": "SexGod1979/PinkCherry_MiniMax-H3",
+    "category": "video",
+    "link": "https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3",
+    "description": "transformers, minimax-h3, text-to-video, license:apache-2.0, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Whisper",
+        "link": "https://openai.com/research/whisper",
+        "description": "视频配音和字幕生成"
+      },
+      {
+        "name": "Flowframes",
+        "link": "https://nmkd.itch.io/flowframes",
+        "description": "视频插帧和流畅化"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "背景音乐生成"
+      }
+    ]
+  },
+  {
+    "name": "Cactus-Compute/needle2",
     "category": "text",
-    "link": "https://huggingface.co/deepgrove/maple-preview",
-    "description": "transformers, safetensors, text-generation, causal-lm, mixture-of-experts, reasoning, ternary, custom-code, conversational, custom_code, en, license:mit, region:us",
+    "link": "https://huggingface.co/Cactus-Compute/needle2",
+    "description": "cactus-needle, needle, tool-calling, function-calling, on-device, edge, quantization, webassembly, text-generation, arxiv:2607.18363, license:apache-2.0, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -456,10 +432,34 @@
     ]
   },
   {
-    "name": "Cactus-Compute/needle2",
+    "name": "NicoLab28/ClipProj-MiniMax-H3",
+    "category": "video",
+    "link": "https://huggingface.co/NicoLab28/ClipProj-MiniMax-H3",
+    "description": "comfyui, minimax-h3, text-to-video, qwen3-vl, text-encoder, base_model:Comfy-Org/MiniMax-H3, base_model:finetune:Comfy-Org/MiniMax-H3, license:mit, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Whisper",
+        "link": "https://openai.com/research/whisper",
+        "description": "视频配音和字幕生成"
+      },
+      {
+        "name": "Flowframes",
+        "link": "https://nmkd.itch.io/flowframes",
+        "description": "视频插帧和流畅化"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "背景音乐生成"
+      }
+    ]
+  },
+  {
+    "name": "inclusionAI/Ling-3.0-flash",
     "category": "text",
-    "link": "https://huggingface.co/Cactus-Compute/needle2",
-    "description": "cactus-needle, needle, tool-calling, function-calling, on-device, edge, quantization, webassembly, text-generation, arxiv:2607.18363, license:apache-2.0, region:us",
+    "link": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+    "description": "safetensors, bailing_hybrid, text-generation, conversational, custom_code, license:mit, eval-results, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -504,10 +504,10 @@
     ]
   },
   {
-    "name": "NicoLab28/ClipProj-MiniMax-H3",
+    "name": "drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
     "category": "video",
-    "link": "https://huggingface.co/NicoLab28/ClipProj-MiniMax-H3",
-    "description": "comfyui, minimax-h3, text-to-video, qwen3-vl, text-encoder, base_model:Comfy-Org/MiniMax-H3, base_model:finetune:Comfy-Org/MiniMax-H3, license:mit, region:us",
+    "link": "https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
+    "description": "minimax-h3, lora, adapter, comfyui, text-to-video, reference-to-video, audio-video, synchronized-audio, few-step, turbo, accelerated-inference, lightx2v, dynamic-rank, svd, safetensors, bfloat16, pruned-model, curve-form, base_model:Comfy-Org/MiniMax-H3, base_model:adapter:Comfy-Org/MiniMax-H3, license:apache-2.0, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -524,6 +524,30 @@
         "name": "Stable Audio",
         "link": "https://stability.ai/stable-audio",
         "description": "背景音乐生成"
+      }
+    ]
+  },
+  {
+    "name": "deepgrove/maple-preview",
+    "category": "text",
+    "link": "https://huggingface.co/deepgrove/maple-preview",
+    "description": "transformers, safetensors, text-generation, causal-lm, mixture-of-experts, reasoning, ternary, custom-code, conversational, custom_code, en, license:mit, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },

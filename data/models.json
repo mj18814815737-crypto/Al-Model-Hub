@@ -288,10 +288,10 @@
     ]
   },
   {
-    "name": "incoai/Qwen3.8-27B-DFlash2",
+    "name": "ornith-ai/Ornith-1.5-9B-GGUF",
     "category": "text",
-    "link": "https://huggingface.co/incoai/Qwen3.8-27B-DFlash2",
-    "description": "transformers, safetensors, qwen3, dflash2, speculative-decoding, block-diffusion, draft-model, sglang, vllm, text-generation, base_model:Qwen/Qwen3.8-27B, base_model:finetune:Qwen/Qwen3.8-27B, license:apache-2.0, text-generation-inference, region:us",
+    "link": "https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF",
+    "description": "transformers, gguf, text-generation, license:mit, endpoints_compatible, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -312,10 +312,10 @@
     ]
   },
   {
-    "name": "ornith-ai/Ornith-1.5-9B-GGUF",
+    "name": "incoai/Qwen3.8-27B-DFlash2",
     "category": "text",
-    "link": "https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF",
-    "description": "transformers, gguf, text-generation, license:mit, endpoints_compatible, region:us, conversational",
+    "link": "https://huggingface.co/incoai/Qwen3.8-27B-DFlash2",
+    "description": "transformers, safetensors, qwen3, dflash2, speculative-decoding, block-diffusion, draft-model, sglang, vllm, text-generation, base_model:Qwen/Qwen3.8-27B, base_model:finetune:Qwen/Qwen3.8-27B, license:apache-2.0, text-generation-inference, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -432,30 +432,6 @@
     ]
   },
   {
-    "name": "Qwen/Qwen3.8-2.4T-A95B",
-    "category": "text",
-    "link": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-    "description": "transformers, safetensors, qwen3_5_moe_text, text-generation, conversational, license:other, eval-results, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
     "name": "incoai/Qwen3.8-27B-DFlash2-GGUF",
     "category": "text",
     "link": "https://huggingface.co/incoai/Qwen3.8-27B-DFlash2-GGUF",
@@ -480,26 +456,26 @@
     ]
   },
   {
-    "name": "empero-ai/Qwen3.8-9B-Distill",
-    "category": "text",
-    "link": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill",
-    "description": "transformers, safetensors, qwen3_5, image-text-to-text, empero-ai, qwen3.5, qwen3.8, distillation, reasoning, function-calling, sft, text-generation, conversational, en, base_model:Qwen/Qwen3.5-9B, base_model:finetune:Qwen/Qwen3.5-9B, license:apache-2.0, endpoints_compatible, region:us",
+    "name": "alibaba-pai/MiniMax-H3-Fun-Controlnet-Union",
+    "category": "video",
+    "link": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union",
+    "description": "videox_fun, controlnet, video-to-video, text-to-video, image-text-to-video, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
+        "name": "Whisper",
+        "link": "https://openai.com/research/whisper",
+        "description": "视频配音和字幕生成"
       },
       {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
+        "name": "Flowframes",
+        "link": "https://nmkd.itch.io/flowframes",
+        "description": "视频插帧和流畅化"
       },
       {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "背景音乐生成"
       }
     ]
   },
@@ -508,6 +484,30 @@
     "category": "text",
     "link": "https://huggingface.co/outsourc-e/Qwen3.8-27B-Unleashed-GGUF",
     "description": "gguf, uncensored, abliterated, qwen3.8, imatrix, dynamic-quant, text-generation, en, zh, base_model:JonathanColetti/Qwen3.8-27B-Uncensored, base_model:quantized:JonathanColetti/Qwen3.8-27B-Uncensored, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "Qwen/Qwen3.8-2.4T-A95B",
+    "category": "text",
+    "link": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+    "description": "transformers, safetensors, qwen3_5_moe_text, text-generation, conversational, license:other, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -552,10 +552,10 @@
     ]
   },
   {
-    "name": "empero-ai/Qwen3.8-9B-Distill-GGUF",
+    "name": "z-lab/Qwen3.8-27B-DFlash2-GGUF",
     "category": "text",
-    "link": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
-    "description": "gguf, llama.cpp, quantized, empero-ai, qwen3.5, qwen3.8, distillation, reasoning, gated-deltanet, text-generation, en, base_model:empero-ai/Qwen3.8-9B-Distill, base_model:quantized:empero-ai/Qwen3.8-9B-Distill, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "link": "https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2-GGUF",
+    "description": "llama.cpp, gguf, dflash2, speculative-decoding, draft-model, text-generation, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -576,10 +576,34 @@
     ]
   },
   {
-    "name": "z-lab/Qwen3.8-27B-DFlash2-GGUF",
+    "name": "ornith-ai/Ornith-1.5-397B",
     "category": "text",
-    "link": "https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2-GGUF",
-    "description": "llama.cpp, gguf, dflash2, speculative-decoding, draft-model, text-generation, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, region:us, conversational",
+    "link": "https://huggingface.co/ornith-ai/Ornith-1.5-397B",
+    "description": "transformers, safetensors, qwen3_5_moe, image-text-to-text, text-generation, conversational, license:mit, eval-results, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "empero-ai/Qwen3.8-9B-Distill-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/empero-ai/Qwen3.8-9B-Distill-GGUF",
+    "description": "gguf, llama.cpp, quantized, empero-ai, qwen3.5, qwen3.8, distillation, reasoning, gated-deltanet, text-generation, en, base_model:empero-ai/Qwen3.8-9B-Distill, base_model:quantized:empero-ai/Qwen3.8-9B-Distill, license:apache-2.0, endpoints_compatible, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {

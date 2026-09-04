@@ -144,10 +144,10 @@
     ]
   },
   {
-    "name": "tencent/Hy4-preview",
+    "name": "XHToken/Spark-X2.5-4B",
     "category": "text",
-    "link": "https://huggingface.co/tencent/Hy4-preview",
-    "description": "transformers, safetensors, hy_v4, text-generation, hunyuan, hy4, moe, conversational, arxiv:2512.02556, arxiv:2603.12201, license:apache-2.0, eval-results, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+    "description": "transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code, base_model:XHToken/Spark-X2.5-4B-Base, base_model:finetune:XHToken/Spark-X2.5-4B-Base, license:apache-2.0, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -192,10 +192,10 @@
     ]
   },
   {
-    "name": "pipecat-ai/phonellm-alpha-1",
+    "name": "tencent/Hy4-preview",
     "category": "text",
-    "link": "https://huggingface.co/pipecat-ai/phonellm-alpha-1",
-    "description": "transformers, safetensors, nemotron_h, text-generation, nemotron, mixture-of-experts, voice-agent, phone, tool-use, function-calling, conversational, pipecat, custom_code, en, base_model:nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16, base_model:finetune:nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16, license:bsd-2-clause, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/tencent/Hy4-preview",
+    "description": "transformers, safetensors, hy_v4, text-generation, hunyuan, hy4, moe, conversational, arxiv:2512.02556, arxiv:2603.12201, license:apache-2.0, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -216,10 +216,10 @@
     ]
   },
   {
-    "name": "unsloth/GLM-5.3-Flash-GGUF",
+    "name": "openai-community/gpt2",
     "category": "text",
-    "link": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF",
-    "description": "gguf, unsloth, glm5_next, text-generation, en, zh, arxiv:2602.15763, base_model:zai-org/GLM-5.3-Flash, base_model:quantized:zai-org/GLM-5.3-Flash, license:mit, endpoints_compatible, region:us, conversational",
+    "link": "https://huggingface.co/openai-community/gpt2",
+    "description": "transformers, pytorch, tf, jax, tflite, rust, onnx, safetensors, gpt2, text-generation, exbert, en, doi:10.57967/hf/0039, license:mit, text-generation-inference, endpoints_compatible, deploy:azure, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -264,26 +264,26 @@
     ]
   },
   {
-    "name": "XHToken/Spark-X2.5-4B",
-    "category": "text",
-    "link": "https://huggingface.co/XHToken/Spark-X2.5-4B",
-    "description": "transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code, base_model:XHToken/Spark-X2.5-4B-Base, base_model:finetune:XHToken/Spark-X2.5-4B-Base, license:apache-2.0, region:us",
+    "name": "OpenVDN/vdn-minimax-h3",
+    "category": "video",
+    "link": "https://huggingface.co/OpenVDN/vdn-minimax-h3",
+    "description": "diffusers, safetensors, text-to-video, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
+        "name": "Whisper",
+        "link": "https://openai.com/research/whisper",
+        "description": "视频配音和字幕生成"
       },
       {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
+        "name": "Flowframes",
+        "link": "https://nmkd.itch.io/flowframes",
+        "description": "视频插帧和流畅化"
       },
       {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "背景音乐生成"
       }
     ]
   },
@@ -312,10 +312,10 @@
     ]
   },
   {
-    "name": "openai-community/gpt2",
+    "name": "pipecat-ai/phonellm-alpha-1",
     "category": "text",
-    "link": "https://huggingface.co/openai-community/gpt2",
-    "description": "transformers, pytorch, tf, jax, tflite, rust, onnx, safetensors, gpt2, text-generation, exbert, en, doi:10.57967/hf/0039, license:mit, text-generation-inference, endpoints_compatible, deploy:azure, region:us",
+    "link": "https://huggingface.co/pipecat-ai/phonellm-alpha-1",
+    "description": "transformers, safetensors, nemotron_h, text-generation, nemotron, mixture-of-experts, voice-agent, phone, tool-use, function-calling, conversational, pipecat, custom_code, en, base_model:nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16, base_model:finetune:nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16, license:bsd-2-clause, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -360,34 +360,10 @@
     ]
   },
   {
-    "name": "OpenVDN/vdn-minimax-h3",
-    "category": "video",
-    "link": "https://huggingface.co/OpenVDN/vdn-minimax-h3",
-    "description": "diffusers, safetensors, text-to-video, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Whisper",
-        "link": "https://openai.com/research/whisper",
-        "description": "视频配音和字幕生成"
-      },
-      {
-        "name": "Flowframes",
-        "link": "https://nmkd.itch.io/flowframes",
-        "description": "视频插帧和流畅化"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "背景音乐生成"
-      }
-    ]
-  },
-  {
-    "name": "incoai/GLM-5.3-Flash-DFlash2",
+    "name": "unsloth/GLM-5.3-Flash-GGUF",
     "category": "text",
-    "link": "https://huggingface.co/incoai/GLM-5.3-Flash-DFlash2",
-    "description": "transformers, safetensors, qwen3, dflash, dflash2, speculative-decoding, block-diffusion, draft-model, sglang, text-generation, base_model:zai-org/GLM-5.3-Flash, base_model:finetune:zai-org/GLM-5.3-Flash, license:cc-by-nc-nd-4.0, text-generation-inference, region:us",
+    "link": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF",
+    "description": "gguf, unsloth, glm5_next, text-generation, en, zh, arxiv:2602.15763, base_model:zai-org/GLM-5.3-Flash, base_model:quantized:zai-org/GLM-5.3-Flash, license:mit, endpoints_compatible, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -408,26 +384,26 @@
     ]
   },
   {
-    "name": "alibaba-pai/MiniMax-H3-Acc-LoRAs",
-    "category": "video",
-    "link": "https://huggingface.co/alibaba-pai/MiniMax-H3-Acc-LoRAs",
-    "description": "videox_fun, text-to-video, arxiv:2607.26004, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
+    "name": "IFM/K2-Horizon-MoVA-36B-A4B",
+    "category": "text",
+    "link": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B",
+    "description": "transformers, safetensors, k2_horizon, text-generation, k2-horizon, 36b, mova, moe, open-weights, ifm, conversational, custom_code, en, dataset:IFM/K2-Horizon-Pretrain-Data, dataset:IFM/K2-Horizon-Midtrain-Data, license:apache-2.0, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "Whisper",
-        "link": "https://openai.com/research/whisper",
-        "description": "视频配音和字幕生成"
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
       },
       {
-        "name": "Flowframes",
-        "link": "https://nmkd.itch.io/flowframes",
-        "description": "视频插帧和流畅化"
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
       },
       {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "背景音乐生成"
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
@@ -436,6 +412,30 @@
     "category": "text",
     "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
     "description": "transformers, safetensors, deepseek_v4, text-generation, conversational, arxiv:2606.19348, license:mit, eval-results, endpoints_compatible, 8-bit, fp8, deploy:azure, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "XHToken/Spark-X2.5-1.7B",
+    "category": "text",
+    "link": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
+    "description": "transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code, base_model:XHToken/Spark-X2.5-1.7B-Base, base_model:finetune:XHToken/Spark-X2.5-1.7B-Base, license:apache-2.0, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -480,6 +480,30 @@
     ]
   },
   {
+    "name": "alibaba-pai/MiniMax-H3-Acc-LoRAs",
+    "category": "video",
+    "link": "https://huggingface.co/alibaba-pai/MiniMax-H3-Acc-LoRAs",
+    "description": "videox_fun, text-to-video, arxiv:2607.26004, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Whisper",
+        "link": "https://openai.com/research/whisper",
+        "description": "视频配音和字幕生成"
+      },
+      {
+        "name": "Flowframes",
+        "link": "https://nmkd.itch.io/flowframes",
+        "description": "视频插帧和流畅化"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "背景音乐生成"
+      }
+    ]
+  },
+  {
     "name": "ornith-ai/Ornith-1.5-35B-A3B",
     "category": "text",
     "link": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B",
@@ -500,30 +524,6 @@
         "name": "BLIP",
         "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
         "description": "图像描述生成"
-      }
-    ]
-  },
-  {
-    "name": "AtomicChat/Qwen3.8-Flash-Next-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/AtomicChat/Qwen3.8-Flash-Next-GGUF",
-    "description": "gguf, atomic-chat, qwen, qwen3.8, flash-next, moe, multimodal, imatrix, quantized, llama.cpp, text-generation, base_model:Qwen/Qwen3.8-Flash-Next, base_model:quantized:Qwen/Qwen3.8-Flash-Next, license:other, endpoints_compatible, region:us, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
       }
     ]
   },

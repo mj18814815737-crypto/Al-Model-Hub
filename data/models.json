@@ -216,6 +216,30 @@
     ]
   },
   {
+    "name": "IFM/K2-Horizon-MoVA-36B-A4B",
+    "category": "text",
+    "link": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B",
+    "description": "transformers, safetensors, k2_horizon, text-generation, k2-horizon, 36b, mova, moe, open-weights, ifm, conversational, custom_code, en, dataset:IFM/K2-Horizon-Pretrain-Data, dataset:IFM/K2-Horizon-Midtrain-Data, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "tencent/Hy4-preview",
     "category": "text",
     "link": "https://huggingface.co/tencent/Hy4-preview",
@@ -264,10 +288,10 @@
     ]
   },
   {
-    "name": "IFM/K2-Horizon-MoVA-36B-A4B",
+    "name": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
     "category": "text",
-    "link": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B",
-    "description": "transformers, safetensors, k2_horizon, text-generation, k2-horizon, 36b, mova, moe, open-weights, ifm, conversational, custom_code, en, dataset:IFM/K2-Horizon-Pretrain-Data, dataset:IFM/K2-Horizon-Midtrain-Data, license:apache-2.0, region:us",
+    "link": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+    "description": "llama.cpp, gguf, uncensored, qwen3.8, mtp, speculative-decoding, imatrix, quantized, text-generation, en, zh, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -312,34 +336,10 @@
     ]
   },
   {
-    "name": "orcarouter/GLM-5.3-Flash-Uncensored-FP8",
+    "name": "XHToken/Spark-X2.5-1.7B",
     "category": "text",
-    "link": "https://huggingface.co/orcarouter/GLM-5.3-Flash-Uncensored-FP8",
-    "description": "transformers, safetensors, glm5_next, image-text-to-text, abliterated, glm, glm5, glm-5.3-flash, uncensored, ai-red-team, red-teaming, moe, vision-language, function-calling, reasoning, mtp, fp8, post-training, fine-tuning, text-generation, conversational, en, zh, base_model:zai-org/GLM-5.3-Flash, base_model:finetune:zai-org/GLM-5.3-Flash, license:mit, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
-    "name": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-    "description": "llama.cpp, gguf, uncensored, qwen3.8, mtp, speculative-decoding, imatrix, quantized, text-generation, en, zh, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "link": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
+    "description": "transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code, base_model:XHToken/Spark-X2.5-1.7B-Base, base_model:finetune:XHToken/Spark-X2.5-1.7B-Base, license:apache-2.0, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -384,10 +384,82 @@
     ]
   },
   {
-    "name": "XHToken/Spark-X2.5-1.7B",
+    "name": "orcarouter/GLM-5.3-Flash-Uncensored-FP8",
     "category": "text",
-    "link": "https://huggingface.co/XHToken/Spark-X2.5-1.7B",
-    "description": "transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code, base_model:XHToken/Spark-X2.5-1.7B-Base, base_model:finetune:XHToken/Spark-X2.5-1.7B-Base, license:apache-2.0, region:us",
+    "link": "https://huggingface.co/orcarouter/GLM-5.3-Flash-Uncensored-FP8",
+    "description": "transformers, safetensors, glm5_next, image-text-to-text, abliterated, glm, glm5, glm-5.3-flash, uncensored, ai-red-team, red-teaming, moe, vision-language, function-calling, reasoning, mtp, fp8, post-training, fine-tuning, text-generation, conversational, en, zh, base_model:zai-org/GLM-5.3-Flash, base_model:finetune:zai-org/GLM-5.3-Flash, license:mit, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
+    "category": "text",
+    "link": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8",
+    "description": "safetensors, glm_moe_dsa, abliterated, crack, refusal-removed, domain-specific, cybersecurity, offensive-security, red-team, pentest, glm, moe, fp8, text-generation, conversational, en, zh, ru, sr, hi, fr, es, ar, ko, ja, base_model:JANGQ-AI/GLM-5.3-FP8, base_model:quantized:JANGQ-AI/GLM-5.3-FP8, license:mit, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "IFM/K2-Horizon-7B",
+    "category": "text",
+    "link": "https://huggingface.co/IFM/K2-Horizon-7B",
+    "description": "transformers, safetensors, k2_horizon, text-generation, k2-horizon, 7b, dense, open-weights, ifm, conversational, custom_code, en, dataset:IFM/K2-Horizon-Pretrain-Data, dataset:IFM/K2-Horizon-Midtrain-Data, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "IFM/K2-Horizon-MoVA-36B-A4B-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B-GGUF",
+    "description": "transformers, gguf, k2-horizon, 36b, mova, moe, open-weights, ifm, text-generation, en, dataset:IFM/K2-Horizon-Pretrain-Data, dataset:IFM/K2-Horizon-Midtrain-Data, base_model:IFM/K2-Horizon-MoVA-36B-A4B, base_model:quantized:IFM/K2-Horizon-MoVA-36B-A4B, license:apache-2.0, endpoints_compatible, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -432,26 +504,21 @@
     ]
   },
   {
-    "name": "IFM/K2-Horizon-MoVA-36B-A4B-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B-GGUF",
-    "description": "transformers, gguf, k2-horizon, 36b, mova, moe, open-weights, ifm, text-generation, en, dataset:IFM/K2-Horizon-Pretrain-Data, dataset:IFM/K2-Horizon-Midtrain-Data, base_model:IFM/K2-Horizon-MoVA-36B-A4B, base_model:quantized:IFM/K2-Horizon-MoVA-36B-A4B, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "name": "microsoft/VibeVoice-ASR-Streaming-7B",
+    "category": "audio",
+    "link": "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B",
+    "description": "transformers, safetensors, vibevoice, ASR, Transcription, Speech-to-Text, Streaming, automatic-speech-recognition, en, zh, es, pt, de, ja, ko, fr, ru, it, arxiv:2609.02812, license:mit, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
       },
       {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
       }
     ]
   },

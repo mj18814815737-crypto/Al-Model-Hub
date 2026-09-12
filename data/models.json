@@ -144,30 +144,6 @@
     ]
   },
   {
-    "name": "XHToken/Spark-X2.5-4B",
-    "category": "text",
-    "link": "https://huggingface.co/XHToken/Spark-X2.5-4B",
-    "description": "transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code, base_model:XHToken/Spark-X2.5-4B-Base, base_model:finetune:XHToken/Spark-X2.5-4B-Base, license:apache-2.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
     "name": "nex-agi/Nex-N2.5-mini",
     "category": "text",
     "link": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
@@ -192,6 +168,30 @@
     ]
   },
   {
+    "name": "XHToken/Spark-X2.5-4B",
+    "category": "text",
+    "link": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+    "description": "transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code, base_model:XHToken/Spark-X2.5-4B-Base, base_model:finetune:XHToken/Spark-X2.5-4B-Base, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "nex-agi/Nex-N2.5-Pro",
     "category": "text",
     "link": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
@@ -212,6 +212,30 @@
         "name": "BLIP",
         "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
         "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "Edge0/Edge0-35B-A3B-preview",
+    "category": "text",
+    "link": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
+    "description": "mlx, safetensors, qwen3_5_moe, moe, edge-inference, prerouter, lora, ssd-offload, text-generation, conversational, license:apache-2.0, 4-bit, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
@@ -264,10 +288,10 @@
     ]
   },
   {
-    "name": "IFM/K2-Horizon-MoVA-36B-A4B",
+    "name": "openai-community/gpt2",
     "category": "text",
-    "link": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B",
-    "description": "transformers, safetensors, k2_horizon, text-generation, k2-horizon, 36b, mova, moe, open-weights, ifm, conversational, custom_code, en, dataset:IFM/K2-Horizon-Pretrain-Data, dataset:IFM/K2-Horizon-Midtrain-Data, license:apache-2.0, region:us",
+    "link": "https://huggingface.co/openai-community/gpt2",
+    "description": "transformers, pytorch, tf, jax, tflite, rust, onnx, safetensors, gpt2, text-generation, exbert, en, doi:10.57967/hf/0039, license:mit, text-generation-inference, endpoints_compatible, deploy:azure, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -307,6 +331,30 @@
     ]
   },
   {
+    "name": "IFM/K2-Horizon-MoVA-36B-A4B",
+    "category": "text",
+    "link": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B",
+    "description": "transformers, safetensors, k2_horizon, text-generation, k2-horizon, 36b, mova, moe, open-weights, ifm, conversational, custom_code, en, dataset:IFM/K2-Horizon-Pretrain-Data, dataset:IFM/K2-Horizon-Midtrain-Data, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "OpenVDN/vdn-minimax-h3",
     "category": "video",
     "link": "https://huggingface.co/OpenVDN/vdn-minimax-h3",
@@ -327,30 +375,6 @@
         "name": "Stable Audio",
         "link": "https://stability.ai/stable-audio",
         "description": "背景音乐生成"
-      }
-    ]
-  },
-  {
-    "name": "zai-org/GLM-5.3",
-    "category": "text",
-    "link": "https://huggingface.co/zai-org/GLM-5.3",
-    "description": "transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763, license:other, eval-results, endpoints_compatible, fp8, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
       }
     ]
   },
@@ -403,34 +427,10 @@
     ]
   },
   {
-    "name": "Edge0/Edge0-35B-A3B-preview",
+    "name": "thesysdev/OUI-1",
     "category": "text",
-    "link": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
-    "description": "mlx, safetensors, qwen3_5_moe, moe, edge-inference, prerouter, lora, ssd-offload, text-generation, conversational, license:apache-2.0, 4-bit, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "krea/Krea-2-Turbo",
-    "category": "image",
-    "link": "https://huggingface.co/krea/Krea-2-Turbo",
-    "description": "diffusers, safetensors, text-to-image, en, base_model:krea/Krea-2-Raw, base_model:finetune:krea/Krea-2-Raw, license:other, diffusers:Krea2Pipeline, region:us",
+    "link": "https://huggingface.co/thesysdev/OUI-1",
+    "description": "transformers, safetensors, diffusion_gemma, image-text-to-text, diffusion-language-model, generative-ui, openui, openui-lang, gemma, text-generation, conversational, en, base_model:google/diffusiongemma-26B-A4B-it, base_model:finetune:google/diffusiongemma-26B-A4B-it, license:apache-2.0, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -470,34 +470,34 @@
     ]
   },
   {
-    "name": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-    "description": "llama.cpp, gguf, uncensored, qwen3.8, mtp, speculative-decoding, imatrix, quantized, text-generation, en, zh, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "name": "krea/Krea-2-Turbo",
+    "category": "image",
+    "link": "https://huggingface.co/krea/Krea-2-Turbo",
+    "description": "diffusers, safetensors, text-to-image, en, base_model:krea/Krea-2-Raw, base_model:finetune:krea/Krea-2-Raw, license:other, diffusers:Krea2Pipeline, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
       },
       {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
       },
       {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
   {
-    "name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+    "name": "zai-org/GLM-5.3",
     "category": "text",
-    "link": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-    "description": "mlx, safetensors, gguf, qwen3_5, abliterated, uncensored, obliteratus, qwen3, qwen3.8, red-team, ai-safety-research, text-generation, conversational, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/zai-org/GLM-5.3",
+    "description": "transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763, license:other, eval-results, endpoints_compatible, fp8, region:us",
     "downloadUrl": "",
     "mates": [
       {

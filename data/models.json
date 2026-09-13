@@ -144,6 +144,30 @@
     ]
   },
   {
+    "name": "Edge0/Edge0-35B-A3B-preview",
+    "category": "text",
+    "link": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
+    "description": "mlx, safetensors, qwen3_5_moe, moe, edge-inference, prerouter, lora, ssd-offload, text-generation, conversational, license:apache-2.0, 4-bit, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "nex-agi/Nex-N2.5-mini",
     "category": "text",
     "link": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
@@ -212,30 +236,6 @@
         "name": "BLIP",
         "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
         "description": "图像描述生成"
-      }
-    ]
-  },
-  {
-    "name": "Edge0/Edge0-35B-A3B-preview",
-    "category": "text",
-    "link": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
-    "description": "mlx, safetensors, qwen3_5_moe, moe, edge-inference, prerouter, lora, ssd-offload, text-generation, conversational, license:apache-2.0, 4-bit, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
       }
     ]
   },
@@ -331,6 +331,30 @@
     ]
   },
   {
+    "name": "TokenRhythm/NeoHorse-1-4B",
+    "category": "text",
+    "link": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
+    "description": "transformers, safetensors, qwen3_5_text, text-generation, agentic, tool-use, coding, reasoning, instruction-following, conversational, arxiv:2609.08183, base_model:Qwen/Qwen3.5-4B, base_model:finetune:Qwen/Qwen3.5-4B, license:apache-2.0, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "IFM/K2-Horizon-MoVA-36B-A4B",
     "category": "text",
     "link": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B",
@@ -355,58 +379,10 @@
     ]
   },
   {
-    "name": "OpenVDN/vdn-minimax-h3",
-    "category": "video",
-    "link": "https://huggingface.co/OpenVDN/vdn-minimax-h3",
-    "description": "diffusers, safetensors, text-to-video, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Whisper",
-        "link": "https://openai.com/research/whisper",
-        "description": "视频配音和字幕生成"
-      },
-      {
-        "name": "Flowframes",
-        "link": "https://nmkd.itch.io/flowframes",
-        "description": "视频插帧和流畅化"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "背景音乐生成"
-      }
-    ]
-  },
-  {
     "name": "XHToken/Spark-X2.5-4B-GGUF",
     "category": "text",
     "link": "https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF",
     "description": "gguf, llama.cpp, ollama, lm-studio, sparkx2_5, text-generation, en, zh, base_model:XHToken/Spark-X2.5-4B, base_model:quantized:XHToken/Spark-X2.5-4B, license:apache-2.0, endpoints_compatible, region:us, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "TokenRhythm/NeoHorse-1-4B",
-    "category": "text",
-    "link": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
-    "description": "transformers, safetensors, qwen3_5_text, text-generation, agentic, tool-use, coding, reasoning, instruction-following, conversational, arxiv:2609.08183, base_model:Qwen/Qwen3.5-4B, base_model:finetune:Qwen/Qwen3.5-4B, license:apache-2.0, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -451,25 +427,6 @@
     ]
   },
   {
-    "name": "pyannote/speaker-diarization-community-1",
-    "category": "audio",
-    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
-    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
     "name": "krea/Krea-2-Turbo",
     "category": "image",
     "link": "https://huggingface.co/krea/Krea-2-Turbo",
@@ -494,50 +451,26 @@
     ]
   },
   {
-    "name": "zai-org/GLM-5.3",
-    "category": "text",
-    "link": "https://huggingface.co/zai-org/GLM-5.3",
-    "description": "transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763, license:other, eval-results, endpoints_compatible, fp8, region:us",
+    "name": "OpenVDN/vdn-minimax-h3",
+    "category": "video",
+    "link": "https://huggingface.co/OpenVDN/vdn-minimax-h3",
+    "description": "diffusers, safetensors, text-to-video, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
+        "name": "Whisper",
+        "link": "https://openai.com/research/whisper",
+        "description": "视频配音和字幕生成"
       },
       {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
+        "name": "Flowframes",
+        "link": "https://nmkd.itch.io/flowframes",
+        "description": "视频插帧和流畅化"
       },
       {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "nvidia/Qwen3.8-27B-NVFP4",
-    "category": "text",
-    "link": "https://huggingface.co/nvidia/Qwen3.8-27B-NVFP4",
-    "description": "Model Optimizer, safetensors, qwen3_5, nvidia, ModelOpt, Qwen3.8, quantized, FP4, fp4, FP8, fp8, text-generation, conversational, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, 8-bit, modelopt, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "背景音乐生成"
       }
     ]
   },

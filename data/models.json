@@ -192,30 +192,6 @@
     ]
   },
   {
-    "name": "nex-agi/Nex-N2.5-Pro",
-    "category": "text",
-    "link": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
-    "description": "transformers, safetensors, qwen3_5_moe, image-text-to-text, text-generation, conversational, license:apache-2.0, eval-results, endpoints_compatible, compressed-tensors, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
     "name": "TokenRhythm/NeoHorse-1-4B",
     "category": "text",
     "link": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
@@ -312,6 +288,30 @@
     ]
   },
   {
+    "name": "deepseek-ai/DeepSeek-R1",
+    "category": "text",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description": "transformers, safetensors, deepseek_v3, text-generation, conversational, custom_code, arxiv:2501.12948, license:mit, eval-results, text-generation-inference, endpoints_compatible, fp8, deploy:sagemaker, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
     "category": "text",
     "link": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8",
@@ -332,6 +332,25 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "pyannote/speaker-diarization-community-1",
+    "category": "audio",
+    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
       }
     ]
   },
@@ -360,26 +379,26 @@
     ]
   },
   {
-    "name": "deepseek-ai/DeepSeek-R1",
-    "category": "text",
-    "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-    "description": "transformers, safetensors, deepseek_v3, text-generation, conversational, custom_code, arxiv:2501.12948, license:mit, eval-results, text-generation-inference, endpoints_compatible, fp8, deploy:sagemaker, region:us",
+    "name": "krea/Krea-2-Turbo",
+    "category": "image",
+    "link": "https://huggingface.co/krea/Krea-2-Turbo",
+    "description": "diffusers, safetensors, text-to-image, en, base_model:krea/Krea-2-Raw, base_model:finetune:krea/Krea-2-Raw, license:other, diffusers:Krea2Pipeline, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
       },
       {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
       },
       {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
@@ -408,29 +427,10 @@
     ]
   },
   {
-    "name": "pyannote/speaker-diarization-community-1",
-    "category": "audio",
-    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
-    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
-    "name": "IFM/K2-Horizon-MoVA-36B-A4B",
+    "name": "audnai/penclaw-GLM-5.3-abliterated",
     "category": "text",
-    "link": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B",
-    "description": "transformers, safetensors, k2_horizon, text-generation, k2-horizon, 36b, mova, moe, open-weights, ifm, conversational, custom_code, en, dataset:IFM/K2-Horizon-Pretrain-Data, dataset:IFM/K2-Horizon-Midtrain-Data, license:apache-2.0, region:us",
+    "link": "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated",
+    "description": "transformers, safetensors, glm_moe_dsa, text-generation, abliterated, uncensored, warlock, audn, GLM-5.3, conversational, license:other, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {

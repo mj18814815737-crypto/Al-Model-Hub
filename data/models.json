@@ -259,30 +259,6 @@
     ]
   },
   {
-    "name": "inclusionAI/Ming-Image-0.1-Design",
-    "category": "image",
-    "link": "https://huggingface.co/inclusionAI/Ming-Image-0.1-Design",
-    "description": "custom, diffusers, safetensors, text-to-image, image-generation, graphic-design, text-rendering, rgba, license:mit, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
     "name": "Altworld/Hemmingway-1",
     "category": "text",
     "link": "https://huggingface.co/Altworld/Hemmingway-1",
@@ -303,6 +279,54 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "orcarouter/OrcaSAQ-2-27B",
+    "category": "text",
+    "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-27B",
+    "description": "vllm, safetensors, qwen3_5, qwen, qwen3.8, orcasaq2, quantization, mixed-precision, 3-bit, reasoning, function-calling, mtp, agentic, long-horizon, long-context, text-generation, conversational, en, zh, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, exl3, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "inclusionAI/Ming-Image-0.1-Design",
+    "category": "image",
+    "link": "https://huggingface.co/inclusionAI/Ming-Image-0.1-Design",
+    "description": "custom, diffusers, safetensors, text-to-image, image-generation, graphic-design, text-rendering, rgba, license:mit, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
@@ -355,78 +379,6 @@
     ]
   },
   {
-    "name": "orcarouter/OrcaSAQ-2-27B",
-    "category": "text",
-    "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-27B",
-    "description": "vllm, safetensors, qwen3_5, qwen, qwen3.8, orcasaq2, quantization, mixed-precision, 3-bit, reasoning, function-calling, mtp, agentic, long-horizon, long-context, text-generation, conversational, en, zh, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, exl3, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "netease-youdao/Confucius4-R2T2",
-    "category": "audio",
-    "link": "https://huggingface.co/netease-youdao/Confucius4-R2T2",
-    "description": "safetensors, qwen3_asr, confucius4, r2t2, asr, streaming, real-time, low-latency, speech-recognition, vllm, multilingual, automatic-speech-recognition, base_model:Qwen/Qwen3-ASR-1.7B, base_model:finetune:Qwen/Qwen3-ASR-1.7B, license:other, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "XiaomiMiMo/MiMo-V2.6-Flash-RL",
-    "category": "text",
-    "link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL",
-    "description": "transformers, safetensors, mimo_v2, text-generation, multimodal, vision-language, audio, agent, video-understanding, long-context, conversational, custom_code, en, zh, license:mit, eval-results, 8-bit, fp8, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Whisper",
-        "link": "https://openai.com/research/whisper",
-        "description": "视频配音和字幕生成"
-      },
-      {
-        "name": "Flowframes",
-        "link": "https://nmkd.itch.io/flowframes",
-        "description": "视频插帧和流畅化"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "背景音乐生成"
-      }
-    ]
-  },
-  {
     "name": "ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF",
     "category": "text",
     "link": "https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF",
@@ -455,6 +407,30 @@
     "category": "text",
     "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
     "description": "llama.cpp, gguf, qwen, qwen3.8, qwen3_5, orcasaq2, quantization, mixed-precision, uncensored, abliterated, reasoning, function-calling, dflash2, long-context, text-generation, en, zh, base_model:orcarouter/Qwen3.8-27B-Uncensored, base_model:quantized:orcarouter/Qwen3.8-27B-Uncensored, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "netease-youdao/Confucius4-R2T2",
+    "category": "audio",
+    "link": "https://huggingface.co/netease-youdao/Confucius4-R2T2",
+    "description": "safetensors, qwen3_asr, confucius4, r2t2, asr, streaming, real-time, low-latency, speech-recognition, vllm, multilingual, automatic-speech-recognition, base_model:Qwen/Qwen3-ASR-1.7B, base_model:finetune:Qwen/Qwen3-ASR-1.7B, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -538,6 +514,30 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "XiaomiMiMo/MiMo-V2.6-Flash-RL",
+    "category": "text",
+    "link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL",
+    "description": "transformers, safetensors, mimo_v2, text-generation, multimodal, vision-language, audio, agent, video-understanding, long-context, conversational, custom_code, en, zh, license:mit, eval-results, 8-bit, fp8, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Whisper",
+        "link": "https://openai.com/research/whisper",
+        "description": "视频配音和字幕生成"
+      },
+      {
+        "name": "Flowframes",
+        "link": "https://nmkd.itch.io/flowframes",
+        "description": "视频插帧和流畅化"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "背景音乐生成"
       }
     ]
   },

@@ -192,6 +192,30 @@
     ]
   },
   {
+    "name": "orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+    "description": "llama.cpp, gguf, qwen, qwen3.8, qwen3_5, orcasaq2, quantization, mixed-precision, uncensored, abliterated, reasoning, function-calling, dflash2, long-context, text-generation, en, zh, base_model:orcarouter/Qwen3.8-27B-Uncensored, base_model:quantized:orcarouter/Qwen3.8-27B-Uncensored, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
     "category": "text",
     "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -216,10 +240,53 @@
     ]
   },
   {
-    "name": "orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+    "name": "FermionResearch/Phonon-2",
+    "category": "audio",
+    "link": "https://huggingface.co/FermionResearch/Phonon-2",
+    "description": "mlx, parakeet_tdt_five_value, apple-silicon, speech-to-text, asr, stt, low-bit, quantization-aware-training, on-device, automatic-speech-recognition, en, base_model:nvidia/parakeet-tdt-0.6b-v3, base_model:quantized:nvidia/parakeet-tdt-0.6b-v3, license:cc-by-4.0, eval-results, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "NaiveAI/Naive-N0.5-Flash",
     "category": "text",
-    "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
-    "description": "llama.cpp, gguf, qwen, qwen3.8, qwen3_5, orcasaq2, quantization, mixed-precision, uncensored, abliterated, reasoning, function-calling, dflash2, long-context, text-generation, en, zh, base_model:orcarouter/Qwen3.8-27B-Uncensored, base_model:quantized:orcarouter/Qwen3.8-27B-Uncensored, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
+    "link": "https://huggingface.co/NaiveAI/Naive-N0.5-Flash",
+    "description": "naive_n05_flash, moe, code, long-context, ai-research, text-generation, conversational, custom_code, license:mit, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+    "category": "text",
+    "link": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+    "description": "exllamav3, safetensors, glm_moe_dsa, exl3, glm, moe, uncensored, text-generation, conversational, base_model:dealignai/GLM-5.3-UNCENSORED-FP8, base_model:quantized:dealignai/GLM-5.3-UNCENSORED-FP8, license:mit, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -264,6 +331,49 @@
     ]
   },
   {
+    "name": "Edge0/Audio8-ASR-Infinite",
+    "category": "audio",
+    "link": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
+    "description": "transformers, safetensors, audio8_asr_infinite, text-generation, streaming, realtime, speech-recognition, audio, automatic-speech-recognition, custom_code, zh, en, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+    "description": "transformers, safetensors, gguf, xing4_0, text-generation, conversational, custom_code, arxiv:2512.24157, arxiv:2507.18013, base_model:XingChen-AGI/Xing4.0-29B-A4B, base_model:quantized:XingChen-AGI/Xing4.0-29B-A4B, license:apache-2.0, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "Altworld/Hemmingway-1",
     "category": "text",
     "link": "https://huggingface.co/Altworld/Hemmingway-1",
@@ -284,135 +394,6 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "FermionResearch/Phonon-2",
-    "category": "audio",
-    "link": "https://huggingface.co/FermionResearch/Phonon-2",
-    "description": "mlx, parakeet_tdt_five_value, apple-silicon, speech-to-text, asr, stt, low-bit, quantization-aware-training, on-device, automatic-speech-recognition, en, base_model:nvidia/parakeet-tdt-0.6b-v3, base_model:quantized:nvidia/parakeet-tdt-0.6b-v3, license:cc-by-4.0, eval-results, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
-    "name": "Edge0/Audio8-ASR-Infinite",
-    "category": "audio",
-    "link": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
-    "description": "transformers, safetensors, audio8_asr_infinite, text-generation, streaming, realtime, speech-recognition, audio, automatic-speech-recognition, custom_code, zh, en, license:apache-2.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
-    "name": "XingChen-AGI/Xing4.0-29B-A4B",
-    "category": "text",
-    "link": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-    "description": "transformers, safetensors, xing4_0, text-generation, conversational, custom_code, arxiv:2512.24157, arxiv:2507.18013, license:apache-2.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
-    "category": "text",
-    "link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
-    "description": "transformers, safetensors, mimo_v2, text-generation, multimodal, vision-language, audio, agent, video-understanding, long-context, conversational, custom_code, en, zh, license:mit, eval-results, 8-bit, fp8, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Whisper",
-        "link": "https://openai.com/research/whisper",
-        "description": "视频配音和字幕生成"
-      },
-      {
-        "name": "Flowframes",
-        "link": "https://nmkd.itch.io/flowframes",
-        "description": "视频插帧和流畅化"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "背景音乐生成"
-      }
-    ]
-  },
-  {
-    "name": "NaiveAI/Naive-N0.5-Flash",
-    "category": "text",
-    "link": "https://huggingface.co/NaiveAI/Naive-N0.5-Flash",
-    "description": "naive_n05_flash, moe, code, long-context, ai-research, text-generation, conversational, custom_code, license:mit, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "pyannote/speaker-diarization-community-1",
-    "category": "audio",
-    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
-    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
       }
     ]
   },
@@ -441,10 +422,53 @@
     ]
   },
   {
-    "name": "orcarouter/OrcaSAQ-2-27B",
+    "name": "pyannote/speaker-diarization-community-1",
+    "category": "audio",
+    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
     "category": "text",
-    "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-27B",
-    "description": "vllm, safetensors, qwen3_5, qwen, qwen3.8, orcasaq2, quantization, mixed-precision, 3-bit, reasoning, function-calling, mtp, agentic, long-horizon, long-context, text-generation, conversational, en, zh, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, exl3, region:us",
+    "link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+    "description": "transformers, safetensors, mimo_v2, text-generation, multimodal, vision-language, audio, agent, video-understanding, long-context, conversational, custom_code, en, zh, license:mit, eval-results, 8-bit, fp8, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Whisper",
+        "link": "https://openai.com/research/whisper",
+        "description": "视频配音和字幕生成"
+      },
+      {
+        "name": "Flowframes",
+        "link": "https://nmkd.itch.io/flowframes",
+        "description": "视频插帧和流畅化"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "背景音乐生成"
+      }
+    ]
+  },
+  {
+    "name": "zai-org/GLM-5.3",
+    "category": "text",
+    "link": "https://huggingface.co/zai-org/GLM-5.3",
+    "description": "transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763, license:other, eval-results, endpoints_compatible, fp8, region:us, deploy:sagemaker",
     "downloadUrl": "",
     "mates": [
       {
@@ -465,10 +489,34 @@
     ]
   },
   {
-    "name": "zai-org/GLM-5.3",
+    "name": "XingChen-AGI/Xing4.0-29B-A4B",
     "category": "text",
-    "link": "https://huggingface.co/zai-org/GLM-5.3",
-    "description": "transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763, license:other, eval-results, endpoints_compatible, fp8, region:us, deploy:sagemaker",
+    "link": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+    "description": "transformers, safetensors, xing4_0, text-generation, conversational, custom_code, arxiv:2512.24157, arxiv:2507.18013, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "orcarouter/OrcaSAQ-2-27B",
+    "category": "text",
+    "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-27B",
+    "description": "vllm, safetensors, qwen3_5, qwen, qwen3.8, orcasaq2, quantization, mixed-precision, 3-bit, reasoning, function-calling, mtp, agentic, long-horizon, long-context, text-generation, conversational, en, zh, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, exl3, region:us",
     "downloadUrl": "",
     "mates": [
       {

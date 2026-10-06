@@ -192,6 +192,30 @@
     ]
   },
   {
+    "name": "jialinyyzz/humanizer",
+    "category": "text",
+    "link": "https://huggingface.co/jialinyyzz/humanizer",
+    "description": "gguf, safetensors, gemma4_unified, image-text-to-text, humanizer, transformers, text-rewriting, rewriting, paraphrase, style-transfer, llama.cpp, gemma4, text-generation, en, zh, base_model:google/gemma-4-12B, base_model:finetune:google/gemma-4-12B, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
     "name": "Qwen/Qwen-Image-2.1",
     "category": "image",
     "link": "https://huggingface.co/Qwen/Qwen-Image-2.1",
@@ -216,30 +240,6 @@
     ]
   },
   {
-    "name": "orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
-    "description": "llama.cpp, gguf, qwen, qwen3.8, qwen3_5, orcasaq2, quantization, mixed-precision, uncensored, abliterated, reasoning, function-calling, dflash2, long-context, text-generation, en, zh, base_model:orcarouter/Qwen3.8-27B-Uncensored, base_model:quantized:orcarouter/Qwen3.8-27B-Uncensored, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
     "name": "FermionResearch/Phonon-2",
     "category": "audio",
     "link": "https://huggingface.co/FermionResearch/Phonon-2",
@@ -255,30 +255,6 @@
         "name": "Stable Audio",
         "link": "https://stability.ai/stable-audio",
         "description": "音频生成"
-      }
-    ]
-  },
-  {
-    "name": "Viggle/Qwen-Image-2.1-viggle-turbo",
-    "category": "image",
-    "link": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
-    "description": "diffusers, safetensors, gguf, lora, text-to-image, image-to-image, image-editing, distillation, turbo, few-step, qwen-image, comfyui, int8, fp8, quantized, base_model:Qwen/Qwen-Image-2.1, base_model:adapter:Qwen/Qwen-Image-2.1, license:other, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
       }
     ]
   },
@@ -307,10 +283,34 @@
     ]
   },
   {
-    "name": "jialinyyzz/humanizer",
+    "name": "orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
     "category": "text",
-    "link": "https://huggingface.co/jialinyyzz/humanizer",
-    "description": "transformers, safetensors, gguf, gemma4_unified, image-text-to-text, humanizer, text-rewriting, rewriting, paraphrase, style-transfer, llama.cpp, mlx, gemma4, text-generation, en, zh, base_model:google/gemma-4-12B, base_model:finetune:google/gemma-4-12B, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+    "description": "llama.cpp, gguf, qwen, qwen3.8, qwen3_5, orcasaq2, quantization, mixed-precision, uncensored, abliterated, reasoning, function-calling, dflash2, long-context, text-generation, en, zh, base_model:orcarouter/Qwen3.8-27B-Uncensored, base_model:quantized:orcarouter/Qwen3.8-27B-Uncensored, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "Viggle/Qwen-Image-2.1-viggle-turbo",
+    "category": "image",
+    "link": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
+    "description": "diffusers, safetensors, gguf, lora, text-to-image, image-to-image, image-editing, distillation, turbo, few-step, qwen-image, comfyui, int8, fp8, quantized, base_model:Qwen/Qwen-Image-2.1, base_model:adapter:Qwen/Qwen-Image-2.1, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -375,6 +375,25 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "Cactus-Compute/whistle",
+    "category": "audio",
+    "link": "https://huggingface.co/Cactus-Compute/whistle",
+    "description": "cactus-needle, whistle, speech-recognition, speech-to-text, on-device, edge, quantization, webassembly, automatic-speech-recognition, en, de, fr, es, it, nl, pl, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
       }
     ]
   },
@@ -466,25 +485,6 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "Cactus-Compute/whistle",
-    "category": "audio",
-    "link": "https://huggingface.co/Cactus-Compute/whistle",
-    "description": "cactus-needle, whistle, speech-recognition, speech-to-text, on-device, edge, quantization, webassembly, automatic-speech-recognition, en, de, fr, es, it, nl, pl, license:apache-2.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
       }
     ]
   },

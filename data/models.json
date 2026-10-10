@@ -120,6 +120,30 @@
     ]
   },
   {
+    "name": "jialinyyzz/humanizer",
+    "category": "text",
+    "link": "https://huggingface.co/jialinyyzz/humanizer",
+    "description": "gguf, safetensors, gemma4_unified, image-text-to-text, humanizer, transformers, text-rewriting, rewriting, paraphrase, style-transfer, llama.cpp, gemma4, text-generation, en, zh, base_model:google/gemma-4-12B, base_model:finetune:google/gemma-4-12B, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
     "name": "Aleph-Alpha/Kolibri-1",
     "category": "text",
     "link": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
@@ -168,173 +192,10 @@
     ]
   },
   {
-    "name": "jialinyyzz/humanizer",
-    "category": "text",
-    "link": "https://huggingface.co/jialinyyzz/humanizer",
-    "description": "gguf, safetensors, gemma4_unified, image-text-to-text, humanizer, transformers, text-rewriting, rewriting, paraphrase, style-transfer, llama.cpp, gemma4, text-generation, en, zh, base_model:google/gemma-4-12B, base_model:finetune:google/gemma-4-12B, license:apache-2.0, endpoints_compatible, region:us, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
     "name": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
     "category": "text",
     "link": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
     "description": "transformers, safetensors, gguf, xing4_0, text-generation, conversational, custom_code, arxiv:2512.24157, arxiv:2507.18013, base_model:XingChen-AGI/Xing4.0-29B-A4B, base_model:quantized:XingChen-AGI/Xing4.0-29B-A4B, license:apache-2.0, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "Cactus-Compute/whistle",
-    "category": "audio",
-    "link": "https://huggingface.co/Cactus-Compute/whistle",
-    "description": "cactus-needle, whistle, speech-recognition, speech-to-text, on-device, edge, quantization, webassembly, automatic-speech-recognition, en, de, fr, es, it, nl, pl, license:apache-2.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
-    "name": "Qwen/Qwen-Image-2.1",
-    "category": "image",
-    "link": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-    "description": "diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other, diffusers:QwenImage21Pipeline, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
-    "name": "Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
-    "category": "text",
-    "link": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
-    "description": "exllamav3, safetensors, glm_moe_dsa, exl3, glm, moe, uncensored, text-generation, conversational, base_model:dealignai/GLM-5.3-UNCENSORED-FP8, base_model:quantized:dealignai/GLM-5.3-UNCENSORED-FP8, license:mit, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
-    "description": "llama.cpp, gguf, qwen, qwen3.8, qwen3_5, orcasaq2, quantization, mixed-precision, uncensored, abliterated, reasoning, function-calling, dflash2, long-context, text-generation, en, zh, base_model:orcarouter/Qwen3.8-27B-Uncensored, base_model:quantized:orcarouter/Qwen3.8-27B-Uncensored, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-    "category": "text",
-    "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-    "description": "llama.cpp, gguf, ternary, 2-bit, llama-cpp, cuda, metal, on-device, hybrid-attention, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
-    "category": "text",
-    "link": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
-    "description": "gguf, llama.cpp, 2-bit, tool-calling, function-calling, agents, qwen3.8, text-generation, en, base_model:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF, base_model:quantized:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -379,10 +240,53 @@
     ]
   },
   {
-    "name": "Viggle/Qwen-Image-2.1-viggle-turbo",
+    "name": "Cactus-Compute/whistle",
+    "category": "audio",
+    "link": "https://huggingface.co/Cactus-Compute/whistle",
+    "description": "cactus-needle, whistle, speech-recognition, speech-to-text, on-device, edge, quantization, webassembly, automatic-speech-recognition, en, de, fr, es, it, nl, pl, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
+    "category": "text",
+    "link": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+    "description": "gguf, llama.cpp, 2-bit, tool-calling, function-calling, agents, qwen3.8, text-generation, en, base_model:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF, base_model:quantized:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "Qwen/Qwen-Image-2.1",
     "category": "image",
-    "link": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
-    "description": "diffusers, safetensors, gguf, lora, text-to-image, image-to-image, image-editing, distillation, turbo, few-step, qwen-image, comfyui, int8, fp8, quantized, base_model:Qwen/Qwen-Image-2.1, base_model:adapter:Qwen/Qwen-Image-2.1, license:other, region:us",
+    "link": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+    "description": "diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other, diffusers:QwenImage21Pipeline, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -403,6 +307,54 @@
     ]
   },
   {
+    "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "category": "text",
+    "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "description": "llama.cpp, gguf, ternary, 2-bit, llama-cpp, cuda, metal, on-device, hybrid-attention, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+    "description": "llama.cpp, gguf, qwen, qwen3.8, qwen3_5, orcasaq2, quantization, mixed-precision, uncensored, abliterated, reasoning, function-calling, dflash2, long-context, text-generation, en, zh, base_model:orcarouter/Qwen3.8-27B-Uncensored, base_model:quantized:orcarouter/Qwen3.8-27B-Uncensored, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "pyannote/speaker-diarization-community-1",
     "category": "audio",
     "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
@@ -418,6 +370,30 @@
         "name": "Stable Audio",
         "link": "https://stability.ai/stable-audio",
         "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+    "category": "text",
+    "link": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+    "description": "exllamav3, safetensors, glm_moe_dsa, exl3, glm, moe, uncensored, text-generation, conversational, base_model:dealignai/GLM-5.3-UNCENSORED-FP8, base_model:quantized:dealignai/GLM-5.3-UNCENSORED-FP8, license:mit, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
@@ -446,10 +422,82 @@
     ]
   },
   {
-    "name": "FermionResearch/Phonon-2",
+    "name": "speridlabs/iris-3b",
+    "category": "image",
+    "link": "https://huggingface.co/speridlabs/iris-3b",
+    "description": "pytorch, safetensors, text-to-image, diffusion, pixel-space, flow-matching, general-vision-learner, vision-foundation-model, depth-estimation, image-restoration, super-resolution, arxiv:2610.09450, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+    "category": "image",
+    "link": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+    "description": "gguf, atomic-chat, qwen, qwen-image, qwen3-vl, text-encoder, stable-diffusion.cpp, abliteration, refusal-direction, text-to-image, base_model:Qwen/Qwen3-VL-8B-Instruct, base_model:finetune:Qwen/Qwen3-VL-8B-Instruct, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "Viggle/Qwen-Image-2.1-viggle-turbo",
+    "category": "image",
+    "link": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
+    "description": "diffusers, safetensors, gguf, lora, text-to-image, image-to-image, image-editing, distillation, turbo, few-step, qwen-image, comfyui, int8, fp8, quantized, base_model:Qwen/Qwen-Image-2.1, base_model:adapter:Qwen/Qwen-Image-2.1, license:other, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "moondream/parakeet-redux",
     "category": "audio",
-    "link": "https://huggingface.co/FermionResearch/Phonon-2",
-    "description": "mlx, parakeet_tdt_five_value, apple-silicon, speech-to-text, asr, stt, low-bit, quantization-aware-training, on-device, automatic-speech-recognition, en, base_model:nvidia/parakeet-tdt-0.6b-v3, base_model:quantized:nvidia/parakeet-tdt-0.6b-v3, license:cc-by-4.0, eval-results, region:us",
+    "link": "https://huggingface.co/moondream/parakeet-redux",
+    "description": "safetensors, parakeet_tdt, ternary, parakeet, tdt, speech-recognition, cpu, apple-silicon, automatic-speech-recognition, en, de, fr, es, it, pt, ru, uk, hr, sl, lv, lt, et, fi, sv, da, nl, pl, cs, sk, hu, ro, bg, el, mt, license:cc-by-4.0, eval-results, 8-bit, region:us",
     "downloadUrl": "",
     "mates": [
       {

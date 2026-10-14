@@ -240,10 +240,10 @@
     ]
   },
   {
-    "name": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+    "name": "LiquidAI/LFM2.5-24B-A2B",
     "category": "text",
-    "link": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
-    "description": "transformers, safetensors, gguf, xing4_0, text-generation, conversational, custom_code, arxiv:2512.24157, arxiv:2507.18013, base_model:XingChen-AGI/Xing4.0-29B-A4B, base_model:quantized:XingChen-AGI/Xing4.0-29B-A4B, license:apache-2.0, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+    "description": "transformers, safetensors, lfm2_moe, text-generation, liquid, lfm2.5, edge, moe, conversational, en, ar, zh, fr, de, ja, ko, es, pt, it, vi, th, id, hi, ru, pl, arxiv:2511.23404, base_model:LiquidAI/LFM2.5-24B-A2B-Base, base_model:finetune:LiquidAI/LFM2.5-24B-A2B-Base, license:other, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -260,6 +260,30 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "speridlabs/iris-3b",
+    "category": "image",
+    "link": "https://huggingface.co/speridlabs/iris-3b",
+    "description": "pytorch, safetensors, text-to-image, diffusion, pixel-space, flow-matching, general-vision-learner, vision-foundation-model, depth-estimation, image-restoration, super-resolution, arxiv:2610.09450, arxiv:2503.06674, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
@@ -283,10 +307,10 @@
     ]
   },
   {
-    "name": "speridlabs/iris-3b",
+    "name": "Qwen/Qwen-Image-2.1",
     "category": "image",
-    "link": "https://huggingface.co/speridlabs/iris-3b",
-    "description": "pytorch, safetensors, text-to-image, diffusion, pixel-space, flow-matching, general-vision-learner, vision-foundation-model, depth-estimation, image-restoration, super-resolution, arxiv:2610.09450, arxiv:2503.06674, license:apache-2.0, region:us",
+    "link": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+    "description": "diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other, diffusers:QwenImage21Pipeline, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -327,30 +351,6 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "Qwen/Qwen-Image-2.1",
-    "category": "image",
-    "link": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-    "description": "diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other, diffusers:QwenImage21Pipeline, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
       }
     ]
   },

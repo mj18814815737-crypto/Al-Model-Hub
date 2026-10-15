@@ -307,58 +307,10 @@
     ]
   },
   {
-    "name": "Qwen/Qwen-Image-2.1",
-    "category": "image",
-    "link": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-    "description": "diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other, diffusers:QwenImage21Pipeline, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
-    "name": "Aleph-Alpha/Kolibri-1",
+    "name": "JetBrains/Mellum2.1-12B-A2.5B-Thinking",
     "category": "text",
-    "link": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-    "description": "vllm, safetensors, kolibri1, reasoning, moe, text-generation, conversational, de, en, arxiv:2512.11614, arxiv:2601.17858, base_model:Aleph-Alpha/Kolibri-1-BF16, base_model:quantized:Aleph-Alpha/Kolibri-1-BF16, license:apache-2.0, eval-results, fp8, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-    "category": "text",
-    "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-    "description": "llama.cpp, gguf, ternary, 2-bit, llama-cpp, cuda, metal, on-device, hybrid-attention, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "link": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking",
+    "description": "transformers, safetensors, mellum, text-generation, conversational, en, arxiv:2605.31268, base_model:JetBrains/Mellum2-12B-A2.5B-Base, base_model:finetune:JetBrains/Mellum2-12B-A2.5B-Base, license:apache-2.0, model-index, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -398,10 +350,106 @@
     ]
   },
   {
-    "name": "JetBrains/Mellum2.1-12B-A2.5B-Thinking",
+    "name": "LiquidAI/LFM2.5-24B-A2B-GGUF",
     "category": "text",
-    "link": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking",
-    "description": "transformers, safetensors, mellum, text-generation, conversational, en, arxiv:2605.31268, base_model:JetBrains/Mellum2-12B-A2.5B-Base, base_model:finetune:JetBrains/Mellum2-12B-A2.5B-Base, license:apache-2.0, model-index, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
+    "description": "gguf, liquid, lfm2.5, llama.cpp, text-generation, en, ar, zh, fr, de, ja, ko, es, pt, it, base_model:LiquidAI/LFM2.5-24B-A2B, base_model:quantized:LiquidAI/LFM2.5-24B-A2B, license:other, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "Qwen/Qwen-Image-2.1",
+    "category": "image",
+    "link": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+    "description": "diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other, diffusers:QwenImage21Pipeline, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "category": "text",
+    "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "description": "llama.cpp, gguf, ternary, 2-bit, llama-cpp, cuda, metal, on-device, hybrid-attention, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "Aleph-Alpha/Kolibri-1",
+    "category": "text",
+    "link": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+    "description": "vllm, safetensors, kolibri1, reasoning, moe, text-generation, conversational, de, en, arxiv:2512.11614, arxiv:2601.17858, base_model:Aleph-Alpha/Kolibri-1-BF16, base_model:quantized:Aleph-Alpha/Kolibri-1-BF16, license:apache-2.0, eval-results, fp8, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
+    "description": "gguf, mellum, llama.cpp, quantized, moe, thinking, text-generation, en, base_model:JetBrains/Mellum2.1-12B-A2.5B-Thinking, base_model:quantized:JetBrains/Mellum2.1-12B-A2.5B-Thinking, license:apache-2.0, endpoints_compatible, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {

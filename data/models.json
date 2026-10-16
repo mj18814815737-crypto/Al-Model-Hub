@@ -192,30 +192,6 @@
     ]
   },
   {
-    "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
-    "category": "text",
-    "link": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
-    "description": "gguf, llama.cpp, 2-bit, tool-calling, function-calling, agents, qwen3.8, text-generation, en, base_model:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF, base_model:quantized:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
     "name": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
     "category": "image",
     "link": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -264,6 +240,30 @@
     ]
   },
   {
+    "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
+    "category": "text",
+    "link": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+    "description": "gguf, llama.cpp, 2-bit, tool-calling, function-calling, agents, qwen3.8, text-generation, en, base_model:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF, base_model:quantized:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "speridlabs/iris-3b",
     "category": "image",
     "link": "https://huggingface.co/speridlabs/iris-3b",
@@ -288,68 +288,6 @@
     ]
   },
   {
-    "name": "Cactus-Compute/whistle",
-    "category": "audio",
-    "link": "https://huggingface.co/Cactus-Compute/whistle",
-    "description": "cactus-needle, whistle, speech-recognition, speech-to-text, on-device, edge, quantization, webassembly, automatic-speech-recognition, en, de, fr, es, it, nl, pl, license:apache-2.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
-    "name": "JetBrains/Mellum2.1-12B-A2.5B-Thinking",
-    "category": "text",
-    "link": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking",
-    "description": "transformers, safetensors, mellum, text-generation, conversational, en, arxiv:2605.31268, base_model:JetBrains/Mellum2-12B-A2.5B-Base, base_model:finetune:JetBrains/Mellum2-12B-A2.5B-Base, license:apache-2.0, model-index, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "pyannote/speaker-diarization-community-1",
-    "category": "audio",
-    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
-    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
     "name": "LiquidAI/LFM2.5-24B-A2B-GGUF",
     "category": "text",
     "link": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
@@ -370,6 +308,44 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "Cactus-Compute/whistle",
+    "category": "audio",
+    "link": "https://huggingface.co/Cactus-Compute/whistle",
+    "description": "cactus-needle, whistle, speech-recognition, speech-to-text, on-device, edge, quantization, webassembly, automatic-speech-recognition, en, de, fr, es, it, nl, pl, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "pyannote/speaker-diarization-community-1",
+    "category": "audio",
+    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
       }
     ]
   },
@@ -422,34 +398,10 @@
     ]
   },
   {
-    "name": "Aleph-Alpha/Kolibri-1",
+    "name": "inclusionAI/Ling-3.1-flash",
     "category": "text",
-    "link": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-    "description": "vllm, safetensors, kolibri1, reasoning, moe, text-generation, conversational, de, en, arxiv:2512.11614, arxiv:2601.17858, base_model:Aleph-Alpha/Kolibri-1-BF16, base_model:quantized:Aleph-Alpha/Kolibri-1-BF16, license:apache-2.0, eval-results, fp8, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
-    "description": "gguf, mellum, llama.cpp, quantized, moe, thinking, text-generation, en, base_model:JetBrains/Mellum2.1-12B-A2.5B-Thinking, base_model:quantized:JetBrains/Mellum2.1-12B-A2.5B-Thinking, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "link": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+    "description": "safetensors, bailing_hybrid, text-generation, conversational, custom_code, license:mit, fp8, region:us",
     "downloadUrl": "",
     "mates": [
       {

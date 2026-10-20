@@ -168,30 +168,6 @@
     ]
   },
   {
-    "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-    "category": "image",
-    "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-    "description": "gguf, qwen, image-generation, comfyui, comfyui-gguf, mlx, fp8, nvfp4, text-to-image, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1, license:other, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
     "name": "OpenMOSS-Team/MOSS-Image-SFT",
     "category": "image",
     "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
@@ -236,6 +212,54 @@
         "name": "BLIP",
         "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
         "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+    "category": "image",
+    "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+    "description": "gguf, qwen, image-generation, comfyui, comfyui-gguf, mlx, fp8, nvfp4, text-to-image, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1, license:other, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "tencent/Hy-Memory-30B-A3B",
+    "category": "text",
+    "link": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+    "description": "transformers, safetensors, hy_v3, text-generation, conversational, en, zh, arxiv:2610.22196, license:apache-2.0, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
@@ -288,10 +312,10 @@
     ]
   },
   {
-    "name": "tencent/Hy-Memory-30B-A3B",
+    "name": "reflection/Beam-1.0-501B-A23B",
     "category": "text",
-    "link": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
-    "description": "transformers, safetensors, hy_v3, text-generation, conversational, en, zh, arxiv:2610.22196, license:apache-2.0, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
+    "description": "safetensors, beam, mixture-of-experts, reasoning, code, tool-use, text-generation, conversational, en, license:apache-2.0, eval-results, deploy:sagemaker, deploy:azure, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -336,6 +360,30 @@
     ]
   },
   {
+    "name": "lodestones/Kromoss",
+    "category": "image",
+    "link": "https://huggingface.co/lodestones/Kromoss",
+    "description": "diffusers, safetensors, moss-image, text-to-image, en, base_model:OpenMOSS-Team/MOSS-Image-Base, base_model:finetune:OpenMOSS-Team/MOSS-Image-Base, license:apache-2.0, diffusers:MOSSImagePipeline, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
     "name": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
     "category": "image",
     "link": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
@@ -360,10 +408,34 @@
     ]
   },
   {
-    "name": "reflection/Beam-1.0-501B-A23B",
+    "name": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
     "category": "text",
-    "link": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
-    "description": "safetensors, beam, mixture-of-experts, reasoning, code, tool-use, text-generation, conversational, en, license:apache-2.0, eval-results, region:us, deploy:sagemaker, deploy:azure",
+    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+    "description": "transformers, safetensors, dory, text-generation, nvidia, pytorch, nemotron-labs, conversational, en, dataset:nvidia/nemotron-post-training-v3, dataset:nvidia/nemotron-pre-training-datasets, license:other, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "inclusionAI/Ling-3.1-flash",
+    "category": "text",
+    "link": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+    "description": "safetensors, bailing_hybrid, text-generation, conversational, custom_code, license:mit, eval-results, fp8, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -399,78 +471,6 @@
         "name": "Stable Audio",
         "link": "https://stability.ai/stable-audio",
         "description": "音频生成"
-      }
-    ]
-  },
-  {
-    "name": "inclusionAI/Ling-3.1-flash",
-    "category": "text",
-    "link": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
-    "description": "safetensors, bailing_hybrid, text-generation, conversational, custom_code, license:mit, eval-results, fp8, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
-    "category": "text",
-    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
-    "description": "transformers, safetensors, dory, text-generation, nvidia, pytorch, nemotron-labs, conversational, en, dataset:nvidia/nemotron-post-training-v3, dataset:nvidia/nemotron-pre-training-datasets, license:other, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "speridlabs/iris-3b",
-    "category": "image",
-    "link": "https://huggingface.co/speridlabs/iris-3b",
-    "description": "pytorch, safetensors, text-to-image, diffusion, pixel-space, flow-matching, general-vision-learner, vision-foundation-model, depth-estimation, image-restoration, super-resolution, arxiv:2610.09450, arxiv:2503.06674, license:apache-2.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
       }
     ]
   },

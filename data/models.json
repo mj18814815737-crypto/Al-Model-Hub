@@ -120,6 +120,30 @@
     ]
   },
   {
+    "name": "RecursiveSI/flint",
+    "category": "text",
+    "link": "https://huggingface.co/RecursiveSI/flint",
+    "description": "transformers, safetensors, flint, text-generation, conversational, license:apache-2.0, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "OpenMOSS-Team/MOSS-Image-SFT",
     "category": "image",
     "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
@@ -168,10 +192,10 @@
     ]
   },
   {
-    "name": "RecursiveSI/flint",
+    "name": "XHToken/Spark-X2.6-4B",
     "category": "text",
-    "link": "https://huggingface.co/RecursiveSI/flint",
-    "description": "transformers, safetensors, flint, text-generation, conversational, license:apache-2.0, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+    "description": "transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code, en, zh, base_model:XHToken/Spark-X2.6-4B-Base, base_model:finetune:XHToken/Spark-X2.6-4B-Base, license:apache-2.0, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -188,6 +212,30 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+    "category": "image",
+    "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+    "description": "gguf, qwen, image-generation, comfyui, comfyui-gguf, mlx, fp8, nvfp4, text-to-image, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1, license:other, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
@@ -216,10 +264,10 @@
     ]
   },
   {
-    "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-    "category": "image",
-    "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-    "description": "gguf, qwen, image-generation, comfyui, comfyui-gguf, mlx, fp8, nvfp4, text-to-image, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1, license:other, region:us",
+    "name": "InternScience/Sage-A1.5",
+    "category": "text",
+    "link": "https://huggingface.co/InternScience/Sage-A1.5",
+    "description": "transformers, safetensors, qwen3_5_moe, image-text-to-text, moe, vlm, vision, agentic, code, tool-use, text-generation, conversational, arxiv:2610.28578, license:apache-2.0, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -312,78 +360,6 @@
     ]
   },
   {
-    "name": "XHToken/Spark-X2.6-4B",
-    "category": "text",
-    "link": "https://huggingface.co/XHToken/Spark-X2.6-4B",
-    "description": "transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code, en, zh, base_model:XHToken/Spark-X2.6-4B-Base, base_model:finetune:XHToken/Spark-X2.6-4B-Base, license:apache-2.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "InternScience/Sage-A1.5",
-    "category": "text",
-    "link": "https://huggingface.co/InternScience/Sage-A1.5",
-    "description": "transformers, safetensors, qwen3_5_moe, image-text-to-text, moe, vlm, vision, agentic, code, tool-use, text-generation, conversational, arxiv:2610.28578, license:apache-2.0, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
-    "name": "LiquidAI/LFM2.5-24B-A2B",
-    "category": "text",
-    "link": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
-    "description": "transformers, safetensors, lfm2_moe, text-generation, liquid, lfm2.5, edge, moe, conversational, en, ar, zh, fr, de, ja, ko, es, pt, it, vi, th, id, hi, ru, pl, arxiv:2511.23404, base_model:LiquidAI/LFM2.5-24B-A2B-Base, base_model:finetune:LiquidAI/LFM2.5-24B-A2B-Base, license:other, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
     "name": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
     "category": "text",
     "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
@@ -404,54 +380,6 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "Qwen/Qwen-Image-2.1-Turbo",
-    "category": "image",
-    "link": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
-    "description": "diffusers, safetensors, qwen, image-generation, image-editing, text-to-image, base_model:Qwen/Qwen-Image-2.1, base_model:finetune:Qwen/Qwen-Image-2.1, license:other, diffusers:QwenImage21Pipeline, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
-    "name": "ornith-ai/Ornith-1.5-122B",
-    "category": "text",
-    "link": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
-    "description": "transformers, safetensors, qwen3_5_moe, image-text-to-text, text-generation, conversational, license:mit, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
       }
     ]
   },
@@ -480,21 +408,50 @@
     ]
   },
   {
-    "name": "pyannote/speaker-diarization-community-1",
-    "category": "audio",
-    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
-    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
+    "name": "LiquidAI/LFM2.5-24B-A2B",
+    "category": "text",
+    "link": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+    "description": "transformers, safetensors, lfm2_moe, text-generation, liquid, lfm2.5, edge, moe, conversational, en, ar, zh, fr, de, ja, ko, es, pt, it, vi, th, id, hi, ru, pl, arxiv:2511.23404, base_model:LiquidAI/LFM2.5-24B-A2B-Base, base_model:finetune:LiquidAI/LFM2.5-24B-A2B-Base, license:other, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
       },
       {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "ornith-ai/Ornith-1.5-122B",
+    "category": "text",
+    "link": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
+    "description": "transformers, safetensors, qwen3_5_moe, image-text-to-text, text-generation, conversational, license:mit, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
@@ -543,6 +500,49 @@
         "name": "BLIP",
         "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
         "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "pyannote/speaker-diarization-community-1",
+    "category": "audio",
+    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "HuggingFaceBio/Carbon-X",
+    "category": "text",
+    "link": "https://huggingface.co/HuggingFaceBio/Carbon-X",
+    "description": "transformers, safetensors, qwen3, text-generation, dna, genomics, biology, variant-effect-prediction, conversational, en, base_model:Qwen/Qwen3-14B, base_model:finetune:Qwen/Qwen3-14B, license:apache-2.0, text-generation-inference, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },

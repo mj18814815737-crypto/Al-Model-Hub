@@ -144,6 +144,73 @@
     ]
   },
   {
+    "name": "LiquidAI/LFM3-1.7B",
+    "category": "text",
+    "link": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+    "description": "transformers, safetensors, lfm3, text-generation, liquid, edge, conversational, custom_code, en, ar, zh, fr, de, it, ja, ko, pt, es, vi, th, id, hi, ru, pl, base_model:LiquidAI/LFM3-1.7B-Base, base_model:finetune:LiquidAI/LFM3-1.7B-Base, license:other, eval-results, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "category": "audio",
+    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "description": "nemo, safetensors, nemo_speechlm, text2text-generation, nvidia, pytorch, nemotron-3.5, speech, asr, speech-translation, speaker-diarization, audio, transcription, speech-to-text, multilingual, timestamps, long-form-audio, language-identification, code-switching, audio-question-answering, instruction-following, hf-asr-leaderboard, transformers, automatic-speech-recognition, cs, nl, en, fr, de, hi, it, ko, pl, pt, ru, sk, es, bg, hr, da, et, fi, hu, ja, lv, lt, ro, sl, sv, th, tr, uk, ar, bn, zh, el, he, id, mt, mr, tl, ta, te, vi, dataset:nvidia/Granary-v2, arxiv:2310.09424, base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16, base_model:finetune:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16, license:other, eval-results, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+    "description": "gguf, gsq, rco, quantization, mixed-precision, ist-daslab, moe, deepseek, text-generation, conversational, arxiv:2604.18556, arxiv:2605.00649, base_model:deepseek-ai/DeepSeek-V4.1-Flash-1017, base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash-1017, license:mit, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "RecursiveSI/flint",
     "category": "text",
     "link": "https://huggingface.co/RecursiveSI/flint",
@@ -188,73 +255,6 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "LiquidAI/LFM3-1.7B",
-    "category": "text",
-    "link": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-    "description": "transformers, safetensors, lfm3, text-generation, liquid, edge, conversational, custom_code, en, ar, zh, fr, de, it, ja, ko, pt, es, vi, th, id, hi, ru, pl, base_model:LiquidAI/LFM3-1.7B-Base, base_model:finetune:LiquidAI/LFM3-1.7B-Base, license:other, eval-results, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-    "description": "gguf, gsq, rco, quantization, mixed-precision, ist-daslab, moe, deepseek, text-generation, conversational, arxiv:2604.18556, arxiv:2605.00649, base_model:deepseek-ai/DeepSeek-V4.1-Flash-1017, base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash-1017, license:mit, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-    "category": "audio",
-    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-    "description": "nemo, safetensors, nemo_speechlm, text2text-generation, nvidia, pytorch, nemotron-3.5, speech, asr, speech-translation, speaker-diarization, audio, transcription, speech-to-text, multilingual, timestamps, long-form-audio, language-identification, code-switching, audio-question-answering, instruction-following, hf-asr-leaderboard, transformers, automatic-speech-recognition, cs, nl, en, fr, de, hi, it, ko, pl, pt, ru, sk, es, bg, hr, da, et, fi, hu, ja, lv, lt, ro, sl, sv, th, tr, uk, ar, bn, zh, el, he, id, mt, mr, tl, ta, te, vi, dataset:nvidia/Granary-v2, arxiv:2310.09424, base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16, base_model:finetune:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16, license:other, eval-results, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
       }
     ]
   },
@@ -331,130 +331,10 @@
     ]
   },
   {
-    "name": "HuggingFaceBio/Carbon-X",
-    "category": "text",
-    "link": "https://huggingface.co/HuggingFaceBio/Carbon-X",
-    "description": "transformers, safetensors, qwen3, text-generation, dna, genomics, biology, variant-effect-prediction, conversational, en, base_model:Qwen/Qwen3-14B, base_model:finetune:Qwen/Qwen3-14B, license:apache-2.0, text-generation-inference, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
     "name": "OpenMOSS-Team/MOSS-Image-SFT",
     "category": "image",
     "link": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
     "description": "diffusers, safetensors, moss-image, text-to-image, en, zh, arxiv:2610.23374, base_model:OpenMOSS-Team/MOSS-Image-Base, base_model:finetune:OpenMOSS-Team/MOSS-Image-Base, license:apache-2.0, diffusers:MOSSImagePipeline, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
-    "name": "unsloth/flint-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/unsloth/flint-GGUF",
-    "description": "gguf, flint, unsloth, text-generation, base_model:RecursiveSI/flint, base_model:quantized:RecursiveSI/flint, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "XHToken/Spark-X2.6-4B-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
-    "description": "transformers, gguf, llm, sparkx2_5, text-generation, en, zh, base_model:XHToken/Spark-X2.6-4B, base_model:quantized:XHToken/Spark-X2.6-4B, license:apache-2.0, endpoints_compatible, region:us, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
-    "description": "gguf, nvidia, pytorch, nemotron-3.5, unsloth, text-generation, en, ar, bg, cs, da, de, el, es, et, fi, fr, hi, hr, hu, id, it, ja, ko, lt, lv, nl, no, pl, pt, ro, ru, sk, sl, sv, th, tr, uk, vi, zh, dataset:nvidia/nemotron-post-training-v3, dataset:nvidia/nemotron-pre-training-datasets, base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16, base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16, license:other, endpoints_compatible, region:us, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "InternScience/Sage-A1.5",
-    "category": "text",
-    "link": "https://huggingface.co/InternScience/Sage-A1.5",
-    "description": "transformers, safetensors, qwen3_5_moe, image-text-to-text, moe, vlm, vision, agentic, code, tool-use, text-generation, conversational, arxiv:2610.28578, license:apache-2.0, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -499,21 +379,74 @@
     ]
   },
   {
-    "name": "pyannote/speaker-diarization-community-1",
-    "category": "audio",
-    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
-    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
+    "name": "HuggingFaceBio/Carbon-X",
+    "category": "text",
+    "link": "https://huggingface.co/HuggingFaceBio/Carbon-X",
+    "description": "transformers, safetensors, qwen3, text-generation, dna, genomics, biology, variant-effect-prediction, conversational, en, base_model:Qwen/Qwen3-14B, base_model:finetune:Qwen/Qwen3-14B, license:apache-2.0, text-generation-inference, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
       },
       {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+    "description": "gguf, nvidia, pytorch, nemotron-3.5, unsloth, text-generation, en, ar, bg, cs, da, de, el, es, et, fi, fr, hi, hr, hu, id, it, ja, ko, lt, lv, nl, no, pl, pt, ro, ru, sk, sl, sv, th, tr, uk, vi, zh, dataset:nvidia/nemotron-post-training-v3, dataset:nvidia/nemotron-pre-training-datasets, base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16, base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16, license:other, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "XHToken/Spark-X2.6-4B-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
+    "description": "transformers, gguf, llm, sparkx2_5, text-generation, en, zh, base_model:XHToken/Spark-X2.6-4B, base_model:quantized:XHToken/Spark-X2.6-4B, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
@@ -546,6 +479,49 @@
     "category": "text",
     "link": "https://huggingface.co/AtomicChat/LFM3-1.7B-Uncensored-GGUF",
     "description": "gguf, quantized, lfm3, text-generation, en, zh, de, base_model:LiquidAI/LFM3-1.7B, base_model:quantized:LiquidAI/LFM3-1.7B, license:other, endpoints_compatible, region:us, imatrix, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "pyannote/speaker-diarization-community-1",
+    "category": "audio",
+    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "unsloth/flint-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/unsloth/flint-GGUF",
+    "description": "gguf, flint, unsloth, text-generation, base_model:RecursiveSI/flint, base_model:quantized:RecursiveSI/flint, license:apache-2.0, endpoints_compatible, region:us, imatrix, conversational",
     "downloadUrl": "",
     "mates": [
       {

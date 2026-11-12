@@ -192,30 +192,6 @@
     ]
   },
   {
-    "name": "webAI-Official/TwIL-8B",
-    "category": "text",
-    "link": "https://huggingface.co/webAI-Official/TwIL-8B",
-    "description": "transformers, safetensors, gguf, granite, text-generation, granite-4.2, twil, reasoning, math, code, instruction-following, reinforcement-learning, grpo, conversational, en, arxiv:2607.02770, base_model:ibm-granite/granite-4.2-8b, base_model:quantized:ibm-granite/granite-4.2-8b, license:other, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
     "name": "Comfy-Org/MiniMax-H3-Image",
     "category": "image",
     "link": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
@@ -240,10 +216,10 @@
     ]
   },
   {
-    "name": "baidu/ERNIE-5.5-Flash-Base",
+    "name": "webAI-Official/TwIL-8B",
     "category": "text",
-    "link": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
-    "description": "transformers, safetensors, ernie5_5_moe, text-generation, ERNIE5.5, MoE, en, zh, arxiv:2610.17959, arxiv:2610.40577, arxiv:2610.24766, license:other, endpoints_compatible, fp8, region:us",
+    "link": "https://huggingface.co/webAI-Official/TwIL-8B",
+    "description": "transformers, safetensors, gguf, granite, text-generation, granite-4.2, twil, reasoning, math, code, instruction-following, reinforcement-learning, grpo, conversational, en, arxiv:2607.02770, base_model:ibm-granite/granite-4.2-8b, base_model:quantized:ibm-granite/granite-4.2-8b, license:other, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -288,101 +264,10 @@
     ]
   },
   {
-    "name": "ccore/Qwen3.5-4B-GLB-3D-Coder",
-    "category": "text",
-    "link": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
-    "description": "safetensors, gguf, qwen3_5, code, threejs, 3d, glb, godot, text-generation, conversational, en, dataset:ccore/ThreeJS-3D-GLB-Assets, base_model:Qwen/Qwen3.5-4B, base_model:finetune:Qwen/Qwen3.5-4B, license:apache-2.0, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "PrunaAI/P-H3-Image-Comfy",
-    "category": "image",
-    "link": "https://huggingface.co/PrunaAI/P-H3-Image-Comfy",
-    "description": "diffusion-single-file, comfyui, text-to-image, image-to-image, image-generation, image-editing, prompt-upsampling, lora, int8, 4-bit, minimax-h3, pruna-ai, en, base_model:PrunaAI/P-H3-Image, base_model:quantized:PrunaAI/P-H3-Image, license:other, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
     "name": "Scantist/GLM-5.3-SLIM-GGUF",
     "category": "text",
     "link": "https://huggingface.co/Scantist/GLM-5.3-SLIM-GGUF",
     "description": "gguf, llama.cpp, glm_moe_dsa, moe, neural-architecture-search, nas, imatrix, text-generation, en, zh, base_model:zai-org/GLM-5.3, base_model:quantized:zai-org/GLM-5.3, license:other, endpoints_compatible, region:us, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-    "category": "audio",
-    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-    "description": "nemo, safetensors, nemo_speechlm, text2text-generation, nvidia, pytorch, nemotron-3.5, speech, asr, speech-translation, speaker-diarization, audio, transcription, speech-to-text, multilingual, timestamps, long-form-audio, language-identification, code-switching, audio-question-answering, instruction-following, hf-asr-leaderboard, transformers, automatic-speech-recognition, cs, nl, en, fr, de, hi, it, ko, pl, pt, ru, sk, es, bg, hr, da, et, fi, hu, ja, lv, lt, ro, sl, sv, th, tr, uk, ar, bn, zh, el, he, id, mt, mr, tl, ta, te, vi, dataset:nvidia/Granary-v2, arxiv:2310.09424, base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16, base_model:finetune:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16, license:other, eval-results, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
-    "name": "LiquidAI/LFM3-1.7B",
-    "category": "text",
-    "link": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-    "description": "transformers, safetensors, lfm3, text-generation, liquid, edge, conversational, custom_code, en, ar, zh, fr, de, it, ja, ko, pt, es, vi, th, id, hi, ru, pl, base_model:LiquidAI/LFM3-1.7B-Base, base_model:finetune:LiquidAI/LFM3-1.7B-Base, license:other, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -427,26 +312,88 @@
     ]
   },
   {
-    "name": "PrunaAI/P-H3-Image",
-    "category": "image",
-    "link": "https://huggingface.co/PrunaAI/P-H3-Image",
-    "description": "diffusers, safetensors, text-to-image, image-to-image, image-generation, image-editing, prompt-upsampling, minimax-h3, modular-diffusers, pruna-ai, en, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
+    "name": "ccore/Qwen3.5-4B-GLB-3D-Coder",
+    "category": "text",
+    "link": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+    "description": "safetensors, gguf, qwen3_5, code, threejs, 3d, glb, godot, text-generation, conversational, en, dataset:ccore/ThreeJS-3D-GLB-Assets, base_model:Qwen/Qwen3.5-4B, base_model:finetune:Qwen/Qwen3.5-4B, license:apache-2.0, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
       },
       {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
       },
       {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "LiquidAI/LFM3-1.7B",
+    "category": "text",
+    "link": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+    "description": "transformers, safetensors, lfm3, text-generation, liquid, edge, conversational, custom_code, en, ar, zh, fr, de, it, ja, ko, pt, es, vi, th, id, hi, ru, pl, base_model:LiquidAI/LFM3-1.7B-Base, base_model:finetune:LiquidAI/LFM3-1.7B-Base, license:other, eval-results, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "category": "audio",
+    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "description": "nemo, safetensors, nemo_speechlm, text2text-generation, nvidia, pytorch, nemotron-3.5, speech, asr, speech-translation, speaker-diarization, audio, transcription, speech-to-text, multilingual, timestamps, long-form-audio, language-identification, code-switching, audio-question-answering, instruction-following, hf-asr-leaderboard, transformers, automatic-speech-recognition, cs, nl, en, fr, de, hi, it, ko, pl, pt, ru, sk, es, bg, hr, da, et, fi, hu, ja, lv, lt, ro, sl, sv, th, tr, uk, ar, bn, zh, el, he, id, mt, mr, tl, ta, te, vi, dataset:nvidia/Granary-v2, arxiv:2310.09424, base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16, base_model:finetune:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16, license:other, eval-results, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "pyannote/speaker-diarization-community-1",
+    "category": "audio",
+    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
       }
     ]
   },
@@ -475,21 +422,74 @@
     ]
   },
   {
-    "name": "pyannote/speaker-diarization-community-1",
-    "category": "audio",
-    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
-    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
+    "name": "PrunaAI/P-H3-Image-Comfy",
+    "category": "image",
+    "link": "https://huggingface.co/PrunaAI/P-H3-Image-Comfy",
+    "description": "diffusion-single-file, comfyui, text-to-image, image-to-image, image-generation, image-editing, prompt-upsampling, lora, int8, 4-bit, minimax-h3, pruna-ai, en, base_model:PrunaAI/P-H3-Image, base_model:quantized:PrunaAI/P-H3-Image, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
       },
       {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "taobao-mnn/MNN-Pocket-0.3B",
+    "category": "text",
+    "link": "https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B",
+    "description": "transformers, safetensors, qwen3, text-generation, mnn, mnn-pocket, on-device, edge, int4, conversational, en, zh, arxiv:2611.12311, base_model:taobao-mnn/MNN-Pocket-0.3B-Base, base_model:finetune:taobao-mnn/MNN-Pocket-0.3B-Base, license:apache-2.0, text-generation-inference, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "PrunaAI/P-H3-Image",
+    "category": "image",
+    "link": "https://huggingface.co/PrunaAI/P-H3-Image",
+    "description": "diffusers, safetensors, text-to-image, image-to-image, image-generation, image-editing, prompt-upsampling, minimax-h3, modular-diffusers, pruna-ai, en, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },

@@ -240,10 +240,10 @@
     ]
   },
   {
-    "name": "Scantist/GLM-5.3-SLIM-GGUF",
+    "name": "Edge0/Edge0-145B-NVFP4",
     "category": "text",
-    "link": "https://huggingface.co/Scantist/GLM-5.3-SLIM-GGUF",
-    "description": "gguf, llama.cpp, glm_moe_dsa, moe, neural-architecture-search, nas, imatrix, text-generation, en, zh, base_model:zai-org/GLM-5.3, base_model:quantized:zai-org/GLM-5.3, license:other, endpoints_compatible, region:us, conversational",
+    "link": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
+    "description": "edge0, gguf, moe, edge-inference, latent-moe, 4-bit, agent, coding, cuda, text-generation, base_model:Qwen/Qwen3.8-Flash-Next, base_model:quantized:Qwen/Qwen3.8-Flash-Next, license:other, endpoints_compatible, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -264,21 +264,26 @@
     ]
   },
   {
-    "name": "pyannote/speaker-diarization-community-1",
-    "category": "audio",
-    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
-    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
+    "name": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+    "category": "image",
+    "link": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+    "description": "diffusers, safetensors, gguf, qwen-image, qwen-image-2.1, text-to-image, image-editing, fp8, int8, nvfp4, nf4, quantized, comfyui, uncensored, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
       },
       {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
@@ -307,10 +312,10 @@
     ]
   },
   {
-    "name": "webAI-Official/TwIL-8B",
+    "name": "Scantist/GLM-5.3-SLIM-GGUF",
     "category": "text",
-    "link": "https://huggingface.co/webAI-Official/TwIL-8B",
-    "description": "transformers, safetensors, gguf, granite, text-generation, granite-4.2, twil, reasoning, math, code, instruction-following, reinforcement-learning, grpo, conversational, en, arxiv:2607.02770, base_model:ibm-granite/granite-4.2-8b, base_model:quantized:ibm-granite/granite-4.2-8b, license:other, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/Scantist/GLM-5.3-SLIM-GGUF",
+    "description": "gguf, llama.cpp, glm_moe_dsa, moe, neural-architecture-search, nas, imatrix, text-generation, en, zh, base_model:zai-org/GLM-5.3, base_model:quantized:zai-org/GLM-5.3, license:other, endpoints_compatible, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -355,26 +360,21 @@
     ]
   },
   {
-    "name": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
-    "category": "image",
-    "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
-    "description": "gguf, qwen, image-generation, comfyui, comfyui-gguf, mlx, fp8, nvfp4, text-to-image, base_model:Qwen/Qwen-Image-2.1-Turbo, base_model:quantized:Qwen/Qwen-Image-2.1-Turbo, license:other, region:us",
+    "name": "pyannote/speaker-diarization-community-1",
+    "category": "audio",
+    "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2104.03603, arxiv:2111.14448, arxiv:2012.01477, arxiv:2110.07058, license:cc-by-4.0, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
       },
       {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
       }
     ]
   },
@@ -422,10 +422,34 @@
     ]
   },
   {
-    "name": "PrunaAI/P-H3-Image-Comfy",
+    "name": "Abiray/MiniMax-H3-Image-GGUF",
     "category": "image",
-    "link": "https://huggingface.co/PrunaAI/P-H3-Image-Comfy",
-    "description": "diffusion-single-file, comfyui, text-to-image, image-to-image, image-generation, image-editing, prompt-upsampling, lora, int8, 4-bit, minimax-h3, pruna-ai, en, base_model:PrunaAI/P-H3-Image, base_model:quantized:PrunaAI/P-H3-Image, license:other, region:us",
+    "link": "https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF",
+    "description": "minimax-h3, gguf, text-to-image, image-to-image, image-editing, minimax, minimax-h3-image, comfyui, dit, quantized, en, base_model:MiniMaxAI/MiniMax-H3-Image, base_model:quantized:MiniMaxAI/MiniMax-H3-Image, license:other, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+    "category": "image",
+    "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+    "description": "gguf, qwen, image-generation, comfyui, comfyui-gguf, mlx, fp8, nvfp4, text-to-image, base_model:Qwen/Qwen-Image-2.1-Turbo, base_model:quantized:Qwen/Qwen-Image-2.1-Turbo, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {

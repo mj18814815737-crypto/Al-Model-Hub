@@ -168,30 +168,6 @@
     ]
   },
   {
-    "name": "NousResearch/Arete-27B",
-    "category": "text",
-    "link": "https://huggingface.co/NousResearch/Arete-27B",
-    "description": "safetensors, qwen3_5, nous-research, arete, supervised-fine-tuning, value-alignment, text-generation, conversational, dataset:NousResearch/arete-data-pairs, base_model:Qwen/Qwen3.8-27B, base_model:finetune:Qwen/Qwen3.8-27B, license:apache-2.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
     "name": "Comfy-Org/MiniMax-H3-Image",
     "category": "image",
     "link": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
@@ -216,10 +192,10 @@
     ]
   },
   {
-    "name": "tencent/Qwen3.8-27B-DSpine-b16",
+    "name": "NousResearch/Arete-27B",
     "category": "text",
-    "link": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
-    "description": "safetensors, qwen3, dspine, speculative-decoding, draft-model, sglang, text-generation, arxiv:2609.36173, arxiv:2607.05147, base_model:Qwen/Qwen3.8-27B, base_model:finetune:Qwen/Qwen3.8-27B, license:apache-2.0, region:us",
+    "link": "https://huggingface.co/NousResearch/Arete-27B",
+    "description": "safetensors, qwen3_5, nous-research, arete, supervised-fine-tuning, value-alignment, text-generation, conversational, dataset:NousResearch/arete-data-pairs, base_model:Qwen/Qwen3.8-27B, base_model:finetune:Qwen/Qwen3.8-27B, license:apache-2.0, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -288,58 +264,34 @@
     ]
   },
   {
-    "name": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
-    "category": "text",
-    "link": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
-    "description": "gguf, atomic-chat, deepseek, deepseek41, gsq, rco, strata, abliteration, refusal-direction, uncensored, text-generation, base_model:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF, base_model:quantized:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF, license:mit, endpoints_compatible, region:us, conversational",
+    "name": "Abiray/MiniMax-H3-Image-GGUF",
+    "category": "image",
+    "link": "https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF",
+    "description": "minimax-h3, gguf, text-to-image, image-to-image, image-editing, minimax, minimax-h3-image, comfyui, dit, quantized, en, base_model:MiniMaxAI/MiniMax-H3-Image, base_model:quantized:MiniMaxAI/MiniMax-H3-Image, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
       },
       {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
       },
       {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
   {
-    "name": "Scantist/GLM-5.3-SLIM-GGUF",
+    "name": "tencent/Qwen3.8-27B-DSpine-b16",
     "category": "text",
-    "link": "https://huggingface.co/Scantist/GLM-5.3-SLIM-GGUF",
-    "description": "gguf, llama.cpp, glm_moe_dsa, moe, neural-architecture-search, nas, imatrix, text-generation, en, zh, base_model:zai-org/GLM-5.3, base_model:quantized:zai-org/GLM-5.3, license:other, endpoints_compatible, region:us, conversational",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "LiquidAI/LFM3-1.7B",
-    "category": "text",
-    "link": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-    "description": "transformers, safetensors, lfm3, text-generation, liquid, edge, conversational, custom_code, en, ar, zh, fr, de, it, ja, ko, pt, es, vi, th, id, hi, ru, pl, base_model:LiquidAI/LFM3-1.7B-Base, base_model:finetune:LiquidAI/LFM3-1.7B-Base, license:other, eval-results, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+    "description": "safetensors, qwen3, dspine, speculative-decoding, draft-model, sglang, text-generation, arxiv:2609.36173, arxiv:2607.05147, base_model:Qwen/Qwen3.8-27B, base_model:finetune:Qwen/Qwen3.8-27B, license:apache-2.0, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -379,10 +331,34 @@
     ]
   },
   {
-    "name": "taobao-mnn/MNN-Pocket-0.3B",
+    "name": "LiquidAI/LFM3-1.7B",
     "category": "text",
-    "link": "https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B",
-    "description": "transformers, safetensors, qwen3, text-generation, mnn, mnn-pocket, on-device, edge, int4, conversational, en, zh, arxiv:2611.12311, base_model:taobao-mnn/MNN-Pocket-0.3B-Base, base_model:finetune:taobao-mnn/MNN-Pocket-0.3B-Base, license:apache-2.0, text-generation-inference, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+    "description": "transformers, safetensors, lfm3, text-generation, liquid, edge, conversational, custom_code, en, ar, zh, fr, de, it, ja, ko, pt, es, vi, th, id, hi, ru, pl, base_model:LiquidAI/LFM3-1.7B-Base, base_model:finetune:LiquidAI/LFM3-1.7B-Base, license:other, eval-results, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+    "description": "gguf, atomic-chat, deepseek, deepseek41, gsq, rco, strata, abliteration, refusal-direction, uncensored, text-generation, base_model:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF, base_model:quantized:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF, license:mit, endpoints_compatible, region:us, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -422,10 +398,34 @@
     ]
   },
   {
-    "name": "Abiray/MiniMax-H3-Image-GGUF",
+    "name": "taobao-mnn/MNN-Pocket-0.3B",
+    "category": "text",
+    "link": "https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B",
+    "description": "transformers, safetensors, qwen3, text-generation, mnn, mnn-pocket, on-device, edge, int4, conversational, en, zh, arxiv:2611.12311, base_model:taobao-mnn/MNN-Pocket-0.3B-Base, base_model:finetune:taobao-mnn/MNN-Pocket-0.3B-Base, license:apache-2.0, text-generation-inference, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
     "category": "image",
-    "link": "https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF",
-    "description": "minimax-h3, gguf, text-to-image, image-to-image, image-editing, minimax, minimax-h3-image, comfyui, dit, quantized, en, base_model:MiniMaxAI/MiniMax-H3-Image, base_model:quantized:MiniMaxAI/MiniMax-H3-Image, license:other, region:us",
+    "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+    "description": "gguf, qwen, image-generation, comfyui, comfyui-gguf, mlx, fp8, nvfp4, text-to-image, base_model:Qwen/Qwen-Image-2.1-Turbo, base_model:quantized:Qwen/Qwen-Image-2.1-Turbo, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -446,10 +446,10 @@
     ]
   },
   {
-    "name": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+    "name": "PrunaAI/P-H3-Image-Comfy",
     "category": "image",
-    "link": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
-    "description": "gguf, qwen, image-generation, comfyui, comfyui-gguf, mlx, fp8, nvfp4, text-to-image, base_model:Qwen/Qwen-Image-2.1-Turbo, base_model:quantized:Qwen/Qwen-Image-2.1-Turbo, license:other, region:us",
+    "link": "https://huggingface.co/PrunaAI/P-H3-Image-Comfy",
+    "description": "diffusion-single-file, comfyui, text-to-image, image-to-image, image-generation, image-editing, prompt-upsampling, lora, int8, 4-bit, minimax-h3, pruna-ai, en, base_model:PrunaAI/P-H3-Image, base_model:quantized:PrunaAI/P-H3-Image, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {

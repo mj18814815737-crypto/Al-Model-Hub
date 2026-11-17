@@ -120,30 +120,6 @@
     ]
   },
   {
-    "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-    "category": "text",
-    "link": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-    "description": "transformers, safetensors, qwen3_5, image-text-to-text, text-generation-inference, unsloth, reasoning, distillation, deepseek, sft, rl, gspo, mtp, math, stem, tool-use, function-calling, heretic, uncensored, decensored, abliterated, text-generation, conversational, en, zh, ko, ja, es, ru, base_model:Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B, base_model:finetune:Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B, license:apache-2.0, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
     "name": "MiniMaxAI/MiniMax-H3-Image",
     "category": "image",
     "link": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
@@ -188,6 +164,54 @@
         "name": "BLIP",
         "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
         "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+    "category": "image",
+    "link": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+    "description": "diffusers, safetensors, gguf, qwen-image, qwen-image-2.1, text-to-image, image-editing, fp8, int8, nvfp4, nf4, quantized, comfyui, uncensored, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1, license:other, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "maxwell-model/Maxwell-V1-Flash",
+    "category": "text",
+    "link": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash",
+    "description": "safetensors, maxwell_moe, moe, text-generation, conversational, custom_code, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
@@ -264,10 +288,10 @@
     ]
   },
   {
-    "name": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
-    "category": "image",
-    "link": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
-    "description": "diffusers, safetensors, gguf, qwen-image, qwen-image-2.1, text-to-image, image-editing, fp8, int8, nvfp4, nf4, quantized, comfyui, uncensored, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1, license:other, region:us",
+    "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "category": "text",
+    "link": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "description": "transformers, safetensors, qwen3_5, image-text-to-text, text-generation-inference, unsloth, reasoning, distillation, deepseek, sft, rl, gspo, mtp, math, stem, tool-use, function-calling, heretic, uncensored, decensored, abliterated, text-generation, conversational, en, zh, ko, ja, es, ru, base_model:Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B, base_model:finetune:Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B, license:apache-2.0, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -288,10 +312,53 @@
     ]
   },
   {
-    "name": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+    "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic",
     "category": "text",
-    "link": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
-    "description": "gguf, atomic-chat, deepseek, deepseek41, gsq, rco, strata, abliteration, refusal-direction, uncensored, text-generation, base_model:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF, base_model:quantized:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF, license:mit, endpoints_compatible, region:us, conversational",
+    "link": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic",
+    "description": "transformers, safetensors, qwen3_5, image-text-to-text, text-generation-inference, unsloth, reasoning, distillation, deepseek, sft, mtp, math, stem, heretic, uncensored, decensored, abliterated, text-generation, conversational, en, zh, ko, ja, es, ru, base_model:Jackrong/DeepSeek-V4-Pro-Qwen3.5-4B, base_model:finetune:Jackrong/DeepSeek-V4-Pro-Qwen3.5-4B, license:apache-2.0, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "pyannote/speaker-diarization-3.1",
+    "category": "audio",
+    "link": "https://huggingface.co/pyannote/speaker-diarization-3.1",
+    "description": "pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization, speaker-change-detection, voice-activity-detection, overlapped-speech-detection, automatic-speech-recognition, arxiv:2111.14448, arxiv:2012.01477, license:mit, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "Qwen",
+        "link": "https://huggingface.co/Qwen",
+        "description": "转写后的文本理解"
+      },
+      {
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "音频生成"
+      }
+    ]
+  },
+  {
+    "name": "MoonMath-ai/DeepSeek-V4.1-Flash-1017-uncensored",
+    "category": "text",
+    "link": "https://huggingface.co/MoonMath-ai/DeepSeek-V4.1-Flash-1017-uncensored",
+    "description": "transformers, safetensors, deepseek_v41, text-generation, deepseek, deepseek-v4.1, uncensored, research, red-team, moe, fp8, base_model:deepseek-ai/DeepSeek-V4.1-Flash-1017, base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash-1017, license:mit, endpoints_compatible, 8-bit, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -312,10 +379,34 @@
     ]
   },
   {
-    "name": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "name": "vyrekai/minimax-h3-image-comfyui-workflows",
+    "category": "image",
+    "link": "https://huggingface.co/vyrekai/minimax-h3-image-comfyui-workflows",
+    "description": "minimax-h3, comfyui, workflow, text-to-image, image-editing, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "meta-llama/Llama-3.1-8B-Instruct",
     "category": "text",
-    "link": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-    "description": "transformers, safetensors, llama, text-generation, facebook, meta, pytorch, llama-3, conversational, en, license:llama3, eval-results, text-generation-inference, endpoints_compatible, deploy:sagemaker, region:us, deploy:azure",
+    "link": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "description": "transformers, safetensors, llama, text-generation, facebook, meta, pytorch, llama-3, conversational, en, de, fr, it, pt, hi, es, th, arxiv:2204.05149, base_model:meta-llama/Llama-3.1-8B, base_model:finetune:meta-llama/Llama-3.1-8B, license:llama3.1, eval-results, text-generation-inference, endpoints_compatible, region:us, deploy:sagemaker",
     "downloadUrl": "",
     "mates": [
       {
@@ -332,6 +423,30 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "akhaliq/minimax-h3-image-pdmd-2step",
+    "category": "image",
+    "link": "https://huggingface.co/akhaliq/minimax-h3-image-pdmd-2step",
+    "description": "diffusers, safetensors, text-to-image, image-generation, lora, few-step, distilled, 2-step, pdmd, minimax-h3, comfyui, ml-intern, arxiv:2609.35768, base_model:MiniMaxAI/MiniMax-H3-Image, base_model:adapter:MiniMaxAI/MiniMax-H3-Image, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
@@ -355,10 +470,10 @@
     ]
   },
   {
-    "name": "LiquidAI/LFM3-1.7B",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
     "category": "text",
-    "link": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-    "description": "transformers, safetensors, lfm3, text-generation, liquid, edge, conversational, custom_code, en, ar, zh, fr, de, it, ja, ko, pt, es, vi, th, id, hi, ru, pl, base_model:LiquidAI/LFM3-1.7B-Base, base_model:finetune:LiquidAI/LFM3-1.7B-Base, license:other, eval-results, endpoints_compatible, region:us",
+    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+    "description": "transformers, gguf, nvidia, pytorch, nemotron-3.5, text-generation, en, ar, bg, cs, da, de, el, es, et, fi, fr, hi, hr, hu, id, it, ja, ko, lt, lv, nl, no, pl, pt, ro, ru, sk, sl, sv, th, tr, uk, vi, zh, dataset:nvidia/nemotron-post-training-v3, dataset:nvidia/nemotron-pre-training-datasets, arxiv:2509.04292, base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16, base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16, license:other, endpoints_compatible, region:us, imatrix, conversational",
     "downloadUrl": "",
     "mates": [
       {
@@ -379,50 +494,50 @@
     ]
   },
   {
-    "name": "KRAFTON/Raon-1-nano",
-    "category": "text",
-    "link": "https://huggingface.co/KRAFTON/Raon-1-nano",
-    "description": "transformers, safetensors, raon1_nano, text-generation, raon, conversational, custom_code, arxiv:2605.28207, license:apache-2.0, region:us",
+    "name": "black-forest-labs/FLUX.1-schnell",
+    "category": "image",
+    "link": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+    "description": "diffusers, safetensors, text-to-image, image-generation, flux, en, license:apache-2.0, endpoints_compatible, diffusers:FluxPipeline, deploy:sagemaker, deploy:azure, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
       },
       {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
       },
       {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
   {
-    "name": "MinimaLabs/KLM-1.6",
-    "category": "text",
-    "link": "https://huggingface.co/MinimaLabs/KLM-1.6",
-    "description": "transformers, safetensors, klm, text-generation, custom_code, small-language-model, base, pretrained, hybrid, gated-deltanet, en, dataset:nvidia/Nemotron-ClimbMix, dataset:IFM/TxT360-v2, dataset:openbmb/UltraX-Preview, dataset:HuggingFaceTB/smollm-corpus, dataset:HuggingFaceTB/cosmopedia, dataset:mlfoundations/dclm-baseline-1.0, dataset:nvidia/OpenMathInstruct-2, dataset:openbmb/UltraData-Math, dataset:IFM/Math-Reasoning, dataset:allenai/dolma3_dolmino_mix-100B-1025, dataset:IFM/Pretrain-Behaviors, arxiv:2605.06546, arxiv:2603.15031, license:apache-2.0, region:us",
+    "name": "Qwen/Qwen-Image-2.1",
+    "category": "image",
+    "link": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+    "description": "diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other, eval-results, diffusers:QwenImage21Pipeline, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
       },
       {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
       },
       {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },

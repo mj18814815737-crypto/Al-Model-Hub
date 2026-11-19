@@ -120,34 +120,34 @@
     ]
   },
   {
-    "name": "MiniMaxAI/MiniMax-H3-Image",
-    "category": "image",
-    "link": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
-    "description": "minimax-h3, diffusers, safetensors, text-to-image, image-to-image, image-editing, image-generation, en, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
+    "name": "apple/FastFrames-L",
+    "category": "video",
+    "link": "https://huggingface.co/apple/FastFrames-L",
+    "description": "safetensors, text-to-video, arxiv:2611.23226, base_model:Wan-AI/Wan2.1-T2V-14B, base_model:finetune:Wan-AI/Wan2.1-T2V-14B, license:apple-amlr, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
+        "name": "Whisper",
+        "link": "https://openai.com/research/whisper",
+        "description": "视频配音和字幕生成"
       },
       {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
+        "name": "Flowframes",
+        "link": "https://nmkd.itch.io/flowframes",
+        "description": "视频插帧和流畅化"
       },
       {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
+        "name": "Stable Audio",
+        "link": "https://stability.ai/stable-audio",
+        "description": "背景音乐生成"
       }
     ]
   },
   {
-    "name": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+    "name": "MiniMaxAI/MiniMax-H3-Image",
     "category": "image",
-    "link": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
-    "description": "diffusers, safetensors, gguf, qwen-image, qwen-image-2.1, text-to-image, image-editing, fp8, int8, nvfp4, nf4, quantized, comfyui, uncensored, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1, license:other, region:us",
+    "link": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+    "description": "minimax-h3, diffusers, safetensors, text-to-image, image-to-image, image-editing, image-generation, en, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -192,26 +192,50 @@
     ]
   },
   {
-    "name": "apple/FastFrames-L",
-    "category": "video",
-    "link": "https://huggingface.co/apple/FastFrames-L",
-    "description": "safetensors, text-to-video, arxiv:2611.23226, base_model:Wan-AI/Wan2.1-T2V-14B, base_model:finetune:Wan-AI/Wan2.1-T2V-14B, license:apple-amlr, region:us",
+    "name": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+    "category": "image",
+    "link": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+    "description": "diffusers, safetensors, gguf, qwen-image, qwen-image-2.1, text-to-image, image-editing, fp8, int8, nvfp4, nf4, quantized, comfyui, uncensored, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1, license:other, region:us",
     "downloadUrl": "",
     "mates": [
       {
-        "name": "Whisper",
-        "link": "https://openai.com/research/whisper",
-        "description": "视频配音和字幕生成"
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
       },
       {
-        "name": "Flowframes",
-        "link": "https://nmkd.itch.io/flowframes",
-        "description": "视频插帧和流畅化"
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
       },
       {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "背景音乐生成"
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
+      }
+    ]
+  },
+  {
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+    "category": "text",
+    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+    "description": "transformers, gguf, nvidia, pytorch, nemotron-3.5, text-generation, en, ar, bg, cs, da, de, el, es, et, fi, fr, hi, hr, hu, id, it, ja, ko, lt, lv, nl, no, pl, pt, ro, ru, sk, sl, sv, th, tr, uk, vi, zh, dataset:nvidia/nemotron-post-training-v3, dataset:nvidia/nemotron-pre-training-datasets, arxiv:2509.04292, base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16, base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16, license:other, endpoints_compatible, region:us, imatrix, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
       }
     ]
   },
@@ -240,10 +264,10 @@
     ]
   },
   {
-    "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
-    "category": "text",
-    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
-    "description": "transformers, gguf, nvidia, pytorch, nemotron-3.5, text-generation, en, ar, bg, cs, da, de, el, es, et, fi, fr, hi, hr, hu, id, it, ja, ko, lt, lv, nl, no, pl, pt, ro, ru, sk, sl, sv, th, tr, uk, vi, zh, dataset:nvidia/nemotron-post-training-v3, dataset:nvidia/nemotron-pre-training-datasets, arxiv:2509.04292, base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16, base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16, license:other, endpoints_compatible, region:us, imatrix, conversational",
+    "name": "Reson8/Rumble-2-Flash",
+    "category": "audio",
+    "link": "https://huggingface.co/Reson8/Rumble-2-Flash",
+    "description": "transformers, safetensors, qwen3_asr, automatic-speech-recognition, qwen3-asr, vllm, af, ar, bn, bs, ca, ceb, cs, da, de, el, en, es, eu, fa, fi, fil, fr, hi, hr, hu, id, is, it, ja, ko, lt, lv, mk, ms, mt, nb, nl, pl, pt, ro, ru, sq, sr, sv, th, tr, uk, vi, yue, zh, license:apache-2.0, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -360,30 +384,6 @@
     ]
   },
   {
-    "name": "vyrekai/minimax-h3-image-comfyui-workflows",
-    "category": "image",
-    "link": "https://huggingface.co/vyrekai/minimax-h3-image-comfyui-workflows",
-    "description": "minimax-h3, comfyui, workflow, text-to-image, image-editing, license:apache-2.0, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
     "name": "pyannote/speaker-diarization-community-1",
     "category": "audio",
     "link": "https://huggingface.co/pyannote/speaker-diarization-community-1",
@@ -403,10 +403,10 @@
     ]
   },
   {
-    "name": "meta-llama/Llama-3.1-8B-Instruct",
+    "name": "meta-llama/Meta-Llama-3-8B-Instruct",
     "category": "text",
-    "link": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-    "description": "transformers, safetensors, llama, text-generation, facebook, meta, pytorch, llama-3, conversational, en, de, fr, it, pt, hi, es, th, arxiv:2204.05149, base_model:meta-llama/Llama-3.1-8B, base_model:finetune:meta-llama/Llama-3.1-8B, license:llama3.1, eval-results, text-generation-inference, endpoints_compatible, region:us, deploy:sagemaker",
+    "link": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+    "description": "transformers, safetensors, llama, text-generation, facebook, meta, pytorch, llama-3, conversational, en, license:llama3, eval-results, text-generation-inference, endpoints_compatible, deploy:sagemaker, region:us, deploy:azure",
     "downloadUrl": "",
     "mates": [
       {
@@ -427,29 +427,10 @@
     ]
   },
   {
-    "name": "FluidVoice-Labs/fluid-speech-pro",
-    "category": "audio",
-    "link": "https://huggingface.co/FluidVoice-Labs/fluid-speech-pro",
-    "description": "transformers, nemo, safetensors, parakeet_tdt, feature-extraction, speech-recognition, automatic-speech-recognition, parakeet, tdt, fastconformer, en, bg, hr, cs, da, nl, et, fi, fr, de, el, hu, it, lv, lt, mt, pl, pt, ro, sk, sl, es, sv, ru, uk, arxiv:2305.05084, arxiv:2304.06795, base_model:moondream/parakeet-ultra, base_model:finetune:moondream/parakeet-ultra, license:cc-by-4.0, eval-results, endpoints_compatible, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "Qwen",
-        "link": "https://huggingface.co/Qwen",
-        "description": "转写后的文本理解"
-      },
-      {
-        "name": "Stable Audio",
-        "link": "https://stability.ai/stable-audio",
-        "description": "音频生成"
-      }
-    ]
-  },
-  {
-    "name": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "name": "LiquidAI/LFM3-1.7B",
     "category": "text",
-    "link": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-    "description": "transformers, safetensors, llama, text-generation, facebook, meta, pytorch, llama-3, conversational, en, license:llama3, eval-results, text-generation-inference, endpoints_compatible, deploy:sagemaker, region:us, deploy:azure",
+    "link": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+    "description": "transformers, safetensors, lfm3, text-generation, liquid, edge, conversational, custom_code, en, ar, zh, fr, de, it, ja, ko, pt, es, vi, th, id, hi, ru, pl, base_model:LiquidAI/LFM3-1.7B-Base, base_model:finetune:LiquidAI/LFM3-1.7B-Base, license:other, eval-results, endpoints_compatible, region:us",
     "downloadUrl": "",
     "mates": [
       {

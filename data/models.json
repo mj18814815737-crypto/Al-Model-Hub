@@ -168,6 +168,30 @@
     ]
   },
   {
+    "name": "maxwell-model/Maxwell-V1-Flash",
+    "category": "text",
+    "link": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash",
+    "description": "safetensors, maxwell_moe, moe, text-generation, conversational, custom_code, license:apache-2.0, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "MiniMaxAI/MiniMax-H3-Image",
     "category": "image",
     "link": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
@@ -192,10 +216,10 @@
     ]
   },
   {
-    "name": "maxwell-model/Maxwell-V1-Flash",
+    "name": "inclusionAI/LingSante-3.1-flash",
     "category": "text",
-    "link": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash",
-    "description": "safetensors, maxwell_moe, moe, text-generation, conversational, custom_code, license:apache-2.0, region:us",
+    "link": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+    "description": "safetensors, bailing_hybrid, text-generation, conversational, custom_code, license:mit, fp8, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -283,10 +307,10 @@
     ]
   },
   {
-    "name": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "name": "OVHaiLLM/Olala-v1.0-mini-7A1B",
     "category": "text",
-    "link": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-    "description": "transformers, safetensors, llama, text-generation, facebook, meta, pytorch, llama-3, conversational, en, license:llama3, eval-results, text-generation-inference, endpoints_compatible, deploy:sagemaker, deploy:azure, region:us",
+    "link": "https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B",
+    "description": "transformers, safetensors, olala, text-generation, ovhai-llm, mamba, hybrid, moe, reasoning, tool-calling, conversational, custom_code, en, zh, fr, de, it, ja, ru, es, pl, pt, nl, el, tr, cs, uk, hu, ro, ko, ar, fi, sv, no, da, bg, sk, hr, lt, sl, bs, he, et, ca, lv, ka, sr, sq, is, base_model:OVHaiLLM/Olala-v1.0-mini-7A1B-SFT, base_model:finetune:OVHaiLLM/Olala-v1.0-mini-7A1B-SFT, license:apache-2.0, co2_eq_emissions, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -327,54 +351,6 @@
         "name": "Vector Database",
         "link": "https://www.pinecone.io",
         "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "OVHaiLLM/Olala-v1.0-mini-7A1B",
-    "category": "text",
-    "link": "https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B",
-    "description": "transformers, safetensors, olala, text-generation, ovhai-llm, mamba, hybrid, moe, reasoning, tool-calling, conversational, custom_code, en, zh, fr, de, it, ja, ru, es, pl, pt, nl, el, tr, cs, uk, hu, ro, ko, ar, fi, sv, no, da, bg, sk, hr, lt, sl, bs, he, et, ca, lv, ka, sr, sq, is, base_model:OVHaiLLM/Olala-v1.0-mini-7A1B-SFT, base_model:finetune:OVHaiLLM/Olala-v1.0-mini-7A1B-SFT, license:apache-2.0, co2_eq_emissions, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "Comfy-Org/MiniMax-H3-Image",
-    "category": "image",
-    "link": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
-    "description": "diffusion-single-file, comfyui, text-to-image, base_model:MiniMaxAI/MiniMax-H3-Image, base_model:finetune:MiniMaxAI/MiniMax-H3-Image, license:other, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
       }
     ]
   },

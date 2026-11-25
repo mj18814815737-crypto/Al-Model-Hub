@@ -120,6 +120,54 @@
     ]
   },
   {
+    "name": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+    "description": "llama.cpp, gguf, ternary, 2-bit, llama-cpp, cuda, metal, on-device, hybrid-attention, agentic, tool-calling, speculative-decoding, mtp, prismml, bonsai, text-generation, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "inclusionAI/LingSante-3.1-flash",
+    "category": "text",
+    "link": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+    "description": "safetensors, bailing_hybrid, text-generation, conversational, custom_code, license:mit, fp8, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
     "name": "apple/FastFrames-L",
     "category": "video",
     "link": "https://huggingface.co/apple/FastFrames-L",
@@ -140,6 +188,78 @@
         "name": "Stable Audio",
         "link": "https://stability.ai/stable-audio",
         "description": "背景音乐生成"
+      }
+    ]
+  },
+  {
+    "name": "Aleph-Alpha/Kolibri-1.1",
+    "category": "text",
+    "link": "https://huggingface.co/Aleph-Alpha/Kolibri-1.1",
+    "description": "vllm, safetensors, kolibri1_1, reasoning, moe, text-generation, conversational, de, en, arxiv:2512.11614, arxiv:2601.17858, license:apache-2.0, eval-results, fp8, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "orcarouter/Inkling-2-Mini-abliterated-GGUF",
+    "category": "text",
+    "link": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF",
+    "description": "gguf, llama.cpp, local, inkling, inkling-2-mini, moe, abliterated, uncensored, mixed-precision, imatrix, text-generation, en, base_model:thinkingmachines/Inkling-2-Mini, base_model:quantized:thinkingmachines/Inkling-2-Mini, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "LangChain",
+        "link": "https://python.langchain.com",
+        "description": "应用编排和 Agent 开发"
+      },
+      {
+        "name": "BGE Embedding",
+        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+        "description": "知识库向量检索"
+      },
+      {
+        "name": "Vector Database",
+        "link": "https://www.pinecone.io",
+        "description": "知识库向量存储"
+      }
+    ]
+  },
+  {
+    "name": "nvidia/Nemotron-Labs-Image-30B-A3B",
+    "category": "image",
+    "link": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+    "description": "transformers, safetensors, nemotron_h, text-generation, nvidia, nemotron, image-generation, nvidia-license, text-to-image, custom_code, arxiv:2610.38095, arxiv:2606.15007, arxiv:2606.02800, arxiv:2503.15558, arxiv:2611.31358, license:other, endpoints_compatible, region:us",
+    "downloadUrl": "",
+    "mates": [
+      {
+        "name": "ControlNet",
+        "link": "https://github.com/lllyasviel/ControlNet",
+        "description": "图像姿态和线稿控制"
+      },
+      {
+        "name": "Real-ESRGAN",
+        "link": "https://replicate.com/xinntao/realesrgan",
+        "description": "图像放大和修复"
+      },
+      {
+        "name": "BLIP",
+        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
+        "description": "图像描述生成"
       }
     ]
   },
@@ -192,78 +312,6 @@
     ]
   },
   {
-    "name": "inclusionAI/LingSante-3.1-flash",
-    "category": "text",
-    "link": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
-    "description": "safetensors, bailing_hybrid, text-generation, conversational, custom_code, license:mit, fp8, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "Aleph-Alpha/Kolibri-1.1",
-    "category": "text",
-    "link": "https://huggingface.co/Aleph-Alpha/Kolibri-1.1",
-    "description": "vllm, safetensors, kolibri1_1, reasoning, moe, text-generation, conversational, de, en, arxiv:2512.11614, arxiv:2601.17858, license:apache-2.0, eval-results, fp8, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "LangChain",
-        "link": "https://python.langchain.com",
-        "description": "应用编排和 Agent 开发"
-      },
-      {
-        "name": "BGE Embedding",
-        "link": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
-        "description": "知识库向量检索"
-      },
-      {
-        "name": "Vector Database",
-        "link": "https://www.pinecone.io",
-        "description": "知识库向量存储"
-      }
-    ]
-  },
-  {
-    "name": "MiniMaxAI/MiniMax-H3-Image",
-    "category": "image",
-    "link": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
-    "description": "minimax-h3, diffusers, safetensors, text-to-image, image-to-image, image-editing, image-generation, en, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
-    "downloadUrl": "",
-    "mates": [
-      {
-        "name": "ControlNet",
-        "link": "https://github.com/lllyasviel/ControlNet",
-        "description": "图像姿态和线稿控制"
-      },
-      {
-        "name": "Real-ESRGAN",
-        "link": "https://replicate.com/xinntao/realesrgan",
-        "description": "图像放大和修复"
-      },
-      {
-        "name": "BLIP",
-        "link": "https://huggingface.co/Salesforce/blip-image-captioning-large",
-        "description": "图像描述生成"
-      }
-    ]
-  },
-  {
     "name": "MemTensor/MemT-1.0-Pro",
     "category": "text",
     "link": "https://huggingface.co/MemTensor/MemT-1.0-Pro",
@@ -288,10 +336,10 @@
     ]
   },
   {
-    "name": "orcarouter/Inkling-2-Mini-abliterated-GGUF",
+    "name": "KRAFTON/Raon-1-mini",
     "category": "text",
-    "link": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF",
-    "description": "gguf, llama.cpp, local, inkling, inkling-2-mini, moe, abliterated, uncensored, mixed-precision, imatrix, text-generation, en, base_model:thinkingmachines/Inkling-2-Mini, base_model:quantized:thinkingmachines/Inkling-2-Mini, license:apache-2.0, endpoints_compatible, region:us, conversational",
+    "link": "https://huggingface.co/KRAFTON/Raon-1-mini",
+    "description": "transformers, safetensors, raon1_mini, text-generation, raon, conversational, custom_code, license:apache-2.0, mxfp8, region:us",
     "downloadUrl": "",
     "mates": [
       {
@@ -312,10 +360,10 @@
     ]
   },
   {
-    "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+    "name": "OVHaiLLM/Olala-v1.0-mini-7A1B",
     "category": "text",
-    "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
-    "description": "transformers, gguf, nvidia, pytorch, nemotron-3.5, text-generation, en, ar, bg, cs, da, de, el, es, et, fi, fr, hi, hr, hu, id, it, ja, ko, lt, lv, nl, no, pl, pt, ro, ru, sk, sl, sv, th, tr, uk, vi, zh, dataset:nvidia/nemotron-post-training-v3, dataset:nvidia/nemotron-pre-training-datasets, arxiv:2509.04292, base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16, base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16, license:other, endpoints_compatible, region:us, imatrix, conversational",
+    "link": "https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B",
+    "description": "transformers, safetensors, olala, text-generation, ovhai-llm, mamba, hybrid, moe, reasoning, tool-calling, conversational, custom_code, en, zh, fr, de, it, ja, ru, es, pl, pt, nl, el, tr, cs, uk, hu, ro, ko, ar, fi, sv, no, da, bg, sk, hr, lt, sl, bs, he, et, ca, lv, ka, sr, sq, is, base_model:OVHaiLLM/Olala-v1.0-mini-7A1B-SFT, base_model:finetune:OVHaiLLM/Olala-v1.0-mini-7A1B-SFT, license:apache-2.0, co2_eq_emissions, region:us",
     "downloadUrl": "",
     "mates": [
       {
